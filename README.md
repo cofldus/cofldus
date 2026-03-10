@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="assets/banner-purple.svg" width="100%" alt="Lee Chaeyeon banner" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=165&color=0:4C1D95,45:7C3AED,100:C084FC&section=header&text=Lee%20Chaeyeon&fontSize=52&fontColor=F7FCFF&fontAlignY=45&desc=AI%20%2F%20NLP%20Engineer&descSize=22&descAlignY=70" />
 
-### AI / NLP Engineer
 데이터 기반 문제정의와 실험 설계로, 서비스에 바로 연결되는 AI를 만듭니다.
 
 [![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=7C3AED&label=hits&size=small)](https://myhits.vercel.app)
@@ -116,8 +115,8 @@
 ## GitHub Stats
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cofldus&theme=tokyonight" />
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cofldus&theme=tokyonight" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&bg_color=FBF7FF&title_color=5B21B6&text_color=6D28D9&icon_color=A855F7&cache_seconds=21600" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&bg_color=FBF7FF&title_color=5B21B6&text_color=6D28D9&cache_seconds=21600" />
 
 <br />
 
