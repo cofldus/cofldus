@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B1464,100:3D2C8D&height=220&section=header&text=Lee%20Chae-yeon%20%7C%20%EC%9D%B4%EC%B1%84%EC%97%B0&fontSize=42&fontColor=F8F9FF&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2B1B5A,50:5E3BEE,100:A78BFA&height=240&section=header&text=%EC%9D%B4%EC%B1%84%EC%97%B0%20Lee%20Chaeyeon&fontSize=42&fontColor=F8F9FF&animation=fadeIn" />
+
+<img src="https://github.com/cofldus.png?size=220" width="148" alt="Lee Chaeyeon profile photo" style="border-radius:50%;" />
 
 <h2>AI / NLP Engineer</h2>
 <p>데이터 기반 문제정의와 실험 설계를 통해, 서비스에 바로 연결되는 AI 시스템을 구현합니다.</p>
@@ -9,8 +11,8 @@
 
 <br />
 
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcofldus&count_bg=%233D2C8D&title_bg=%231B1464&icon=github.svg&icon_color=%23FFFFFF&title=visits&edge_flat=false)
-[![solved.ac](http://mazassumnida.wtf/api/mini/generate_badge?boj=lcyicy1717)](https://solved.ac/lcyicy1717)
+[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=8B5CF6&label=hits&size=small)](https://myhits.vercel.app)
+[![solved.ac](http://mazassumnida.wtf/api/mini/generate_badge?boj=lcylcy3816)](https://solved.ac/lcylcy3816)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)]([Portfolio URL])
 [![Resume](https://img.shields.io/badge/Resume-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)]([Resume URL])
 [![GitHub](https://img.shields.io/badge/GitHub-cofldus-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cofldus)
@@ -119,24 +121,24 @@
 ## 6) GitHub Stats
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&theme=tokyonight" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&theme=tokyonight" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&theme=midnight-purple" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&theme=midnight-purple" />
 
 <br />
 
-<img height="165" src="https://streak-stats.demolab.com?user=cofldus&theme=tokyonight&hide_border=true" />
+<img height="165" src="https://streak-stats.demolab.com?user=cofldus&theme=midnight-purple&hide_border=true" />
 
 <br />
 
-<img src="https://github-profile-trophy.vercel.app/?username=cofldus&theme=algolia&no-frame=true&row=1&column=6" />
+<img src="https://github-profile-trophy.vercel.app/?username=cofldus&theme=onestar&no-frame=true&row=1&column=6" />
 
 <br />
 
-<img src="http://mazandi.herokuapp.com/api?handle=lcyicy1717&theme=warm" />
+<img src="http://mazandi.herokuapp.com/api?handle=lcylcy3816&theme=warm" />
 
 <br />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cofldus&theme=tokyo-night&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cofldus&theme=react-dark&hide_border=true&color=A78BFA&line=8B5CF6&point=C4B5FD" />
 
 </div>
 
@@ -148,5 +150,5 @@
 - Projects: [Repo URL]
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3D2C8D,100:1B1464&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A78BFA,50:5E3BEE,100:2B1B5A&height=120&section=footer" />
 </div>
