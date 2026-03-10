@@ -24,10 +24,10 @@
 ## Selected Projects
 
 ### lovelop — AI 상권 분석·시뮬레이션 SaaS
-진단-해결안-시뮬레이션-리포트를 연결한 점주 의사결정 지원 플랫폼.
+AI Agent 기반 가상 고객 시뮬레이션으로 상권 전략을 사전 검증하는 점주 의사결정 플랫폼.
 - 핵심 성과 1: 과거 요약형 분석 한계를 넘어 변경안 적용 결과 예측 구조 구현
 - 핵심 성과 2: `lop진단 -> 시뮬레이션 -> 결과 리포트` 파이프라인으로 실행 전략 제공
-- 역할/기술: 데이터 전처리, 에이전트 페르소나 설계, 시뮬레이션 검증 | Gemma, EXAONE, GPT-5.2
+- 역할/기술: 데이터 전처리, AI Agent 페르소나/행동 로직 설계, 시뮬레이션 검증 | Gemma, EXAONE, GPT-5.2
 - 링크: [Repo](https://github.com/khai-likelion/agent-sim) · [Portfolio](https://cofldus.github.io/)
 
 ### KillKong — 콩글리쉬 교정 AI Agent
@@ -52,9 +52,11 @@
 - 링크: [Repo](https://github.com/cofldus/hunchgame_density-predict-service) · [Portfolio](https://cofldus.github.io/)
 
 ## More Projects
-CT-MRI Image Translation, AiRPA, 난독화 한글 리뷰 복원 AI 등 추가 프로젝트는 아래에서 확인할 수 있습니다.
-- [Portfolio](https://cofldus.github.io/)
-- [GitHub Repositories](https://github.com/cofldus?tab=repositories)
+- [CT-MRI Image Translation](https://github.com/cofldus/medical_image_translation)
+- [난독화 한글 리뷰 복원 AI](https://github.com/cofldus/korean-noise-restoration)
+- [의료 RAG 챗봇 (Aegis Bio Sentinels)](https://github.com/cofldus/medical-chatbot_aegis-bio-sentinels)
+- [AiRPA 및 기타 프로젝트는 Portfolio에서 확인](https://cofldus.github.io/)
+- [전체 레포 목록](https://github.com/cofldus?tab=repositories)
 
 ## Tech Stack
 `Python` `PyTorch` `Pandas` `NumPy` `scikit-learn` `FastAPI` `Flask` `Redis` `SQLite` `Docker` `Kubernetes` `Airflow` `React Native` `KoBART` `KoELECTRA` `FAISS`
