@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2B1B5A,50:5E3BEE,100:A78BFA&height=240&section=header&text=%EC%9D%B4%EC%B1%84%EC%97%B0%20Lee%20Chaeyeon&fontSize=42&fontColor=F8F9FF&animation=fadeIn" />
 
-<img src="https://cofldus.github.io/images/profile.jpg" width="148" alt="Lee Chaeyeon profile photo" style="border-radius:50%;" />
+<img src="https://avatars.githubusercontent.com/cofldus?s=220&v=4" width="148" alt="Lee Chaeyeon profile photo" style="border-radius:50%;" />
 
 <h2>AI / NLP Engineer</h2>
 <p>데이터 기반 문제정의와 실험 설계를 통해, 서비스에 바로 연결되는 AI 시스템을 구현합니다.</p>
@@ -121,8 +121,8 @@
 ## 6) GitHub Stats
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&theme=midnight-purple" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&theme=midnight-purple" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cofldus&theme=tokyonight" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cofldus&theme=tokyonight" />
 
 <br />
 
