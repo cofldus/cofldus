@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=115&color=0:0A327E,45:005FE0,100:00BCEB&section=header&text=%20" />
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=40&duration=3500&pause=99999&center=true&vCenter=true&width=900&color=0A327E&lines=%EC%9D%B4%EC%B1%84%EC%97%B0+%C2%B7+Lee+Chaeyeon" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=150&color=0:0A327E,45:005FE0,100:00BCEB&section=header&text=LEE%20CHAEYEON&fontSize=48&fontColor=F7FCFF&fontAlignY=42&desc=%EC%9D%B4%EC%B1%84%EC%97%B0&descSize=26&descAlignY=72" />
 
 ### AI / NLP Engineer
 데이터 기반 문제정의와 실험 설계로, 서비스에 바로 연결되는 AI를 만듭니다.
