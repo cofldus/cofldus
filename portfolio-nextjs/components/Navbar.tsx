@@ -2,53 +2,70 @@
 
 import { useState, useEffect } from "react";
 
-const navLinks = [
+const links = [
   { label: "소개",      href: "#about" },
   { label: "성과",      href: "#impact" },
-  { label: "기술 스택", href: "#tech-stack" },
+  { label: "기술",      href: "#tech-stack" },
   { label: "프로젝트",  href: "#projects" },
   { label: "연락",      href: "#contact" },
 ];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 10);
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+    const fn = () => setScrolled(window.scrollY > 8);
+    window.addEventListener("scroll", fn);
+    return () => window.removeEventListener("scroll", fn);
   }, []);
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50 transition-shadow duration-200"
       style={{
-        background: "rgba(255,255,255,0.96)",
-        backdropFilter: "blur(10px)",
-        borderBottom: "1px solid #E5E7EB",
-        boxShadow: scrolled ? "0 1px 16px rgba(0,0,0,0.07)" : "none",
+        position: "fixed", top: 0, left: 0, right: 0, zIndex: 50,
+        background: scrolled ? "rgba(255,255,255,0.97)" : "#fff",
+        borderBottom: `1px solid ${scrolled ? "var(--border)" : "transparent"}`,
+        backdropFilter: "blur(8px)",
+        transition: "border-color 0.2s, background 0.2s",
       }}
     >
       <div
-        className="mx-auto px-8 flex items-center justify-between h-14"
-        style={{ maxWidth: 960 }}
+        style={{
+          maxWidth: "var(--cw)",
+          margin: "0 auto",
+          padding: "0 var(--cp)",
+          height: 52,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
       >
         <a
           href="#about"
-          className="font-mono font-bold text-[14px]"
-          style={{ color: "#7C3AED" }}
+          style={{
+            fontFamily: "var(--font-sans)",
+            fontSize: 13,
+            fontWeight: 700,
+            letterSpacing: "-0.01em",
+            color: "var(--accent)",
+            textDecoration: "none",
+          }}
         >
-          lcy.dev
+          Lee Chaeyeon
         </a>
-        <div className="hidden sm:flex items-center gap-8">
-          {navLinks.map((l) => (
+        <div style={{ display: "flex", gap: 32 }}>
+          {links.map((l) => (
             <a
               key={l.label}
               href={l.href}
-              className="text-[13px] font-medium transition-colors duration-150"
-              style={{ color: "#6B7280" }}
-              onMouseEnter={(e) => (e.currentTarget.style.color = "#111827")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#6B7280")}
+              style={{
+                fontSize: 13,
+                fontWeight: 500,
+                color: "var(--ink-mid)",
+                textDecoration: "none",
+                transition: "color 0.15s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "var(--ink)")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "var(--ink-mid)")}
             >
               {l.label}
             </a>

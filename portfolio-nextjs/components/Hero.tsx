@@ -1,119 +1,179 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import profilePhoto from "./profilePhoto";
 
-const W = 960;
-
-const fadeUp = { hidden: { opacity: 0, y: 22 }, show: { opacity: 1, y: 0 } };
-const stagger = { hidden: {}, show: { transition: { staggerChildren: 0.12, delayChildren: 0.05 } } };
+const fadeUp: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
+const stagger: Variants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.09 } },
+};
 
 export default function Hero() {
   return (
-    <section id="about" style={{ background: "#FFFFFF", paddingTop: 56 }}>
-      <div className="mx-auto px-8 py-24 lg:py-32" style={{ maxWidth: W }}>
+    <section id="about" style={{ background: "var(--bg)", paddingTop: 52 }}>
+      <div
+        style={{
+          maxWidth: "var(--cw)",
+          margin: "0 auto",
+          padding: "68px var(--cp) 60px",
+        }}
+      >
         <motion.div
           variants={stagger}
           initial="hidden"
           animate="show"
-          className="grid grid-cols-1 lg:grid-cols-[1fr_230px] gap-16 items-center"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1fr auto",
+            gap: 56,
+            alignItems: "flex-end",
+          }}
         >
-          {/* 좌측 */}
+          {/* 좌측: 텍스트 */}
           <div>
-            {/* 채용 배지 */}
+            {/* 상태 라벨 */}
             <motion.div
               variants={fadeUp}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 mb-8 px-3 py-1.5"
-              style={{
-                background: "#F0FDF4",
-                border: "1px solid #BBF7D0",
-                borderRadius: "99px",
-              }}
+              style={{ display: "inline-flex", alignItems: "center", gap: 7, marginBottom: 24 }}
             >
               <span
-                className="inline-block w-1.5 h-1.5 rounded-full"
-                style={{ background: "#10B981" }}
+                style={{
+                  display: "inline-block",
+                  width: 6,
+                  height: 6,
+                  borderRadius: "50%",
+                  background: "#10B981",
+                }}
               />
               <span
-                className="font-mono text-[10px] tracking-[0.18em] uppercase font-semibold"
-                style={{ color: "#059669" }}
+                style={{
+                  fontFamily: "var(--font-mono)",
+                  fontSize: 11,
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase",
+                  color: "var(--ink-light)",
+                }}
               >
-                현재 채용 기회를 찾고 있습니다
+                채용 기회를 찾고 있습니다
               </span>
             </motion.div>
 
             {/* 이름 */}
-            <motion.div variants={fadeUp} transition={{ duration: 0.55 }} className="mb-5">
+            <motion.div variants={fadeUp} style={{ marginBottom: 6 }}>
               <h1
-                className="font-black leading-[1.0] tracking-[-0.03em]"
-                style={{ fontSize: "clamp(46px, 6.5vw, 72px)", color: "#111827" }}
+                style={{
+                  fontSize: "clamp(48px, 7.5vw, 76px)",
+                  fontWeight: 800,
+                  letterSpacing: "-0.045em",
+                  lineHeight: 1.0,
+                  color: "var(--ink)",
+                }}
               >
-                Lee Chae-yeon
+                Lee Chaeyeon
               </h1>
-              <h1
-                className="font-black leading-[1.0] tracking-[-0.03em]"
-                style={{ fontSize: "clamp(46px, 6.5vw, 72px)", color: "#F97316" }}
+            </motion.div>
+
+            {/* 한글 이름 — 조용한 보조 정보 */}
+            <motion.div variants={fadeUp} style={{ marginBottom: 24 }}>
+              <span
+                style={{
+                  fontFamily: "var(--font-mono)",
+                  fontSize: 12,
+                  color: "var(--ink-light)",
+                  letterSpacing: "0.05em",
+                }}
               >
-                (이채연)
-              </h1>
+                이채연
+              </span>
             </motion.div>
 
             {/* 직함 */}
             <motion.p
               variants={fadeUp}
-              transition={{ duration: 0.5 }}
-              className="text-[18px] font-medium mb-8"
-              style={{ color: "#6B7280" }}
-            >
-              AI / NLP 엔지니어
-            </motion.p>
-
-            {/* 인용구 */}
-            <motion.p
-              variants={fadeUp}
-              transition={{ duration: 0.5 }}
-              className="text-[14px] italic mb-12 pl-5 leading-[1.9]"
               style={{
-                borderLeft: "2px solid #DDD6FE",
-                color: "#9CA3AF",
-                maxWidth: 420,
+                fontSize: 15,
+                fontWeight: 500,
+                color: "var(--ink-mid)",
+                marginBottom: 6,
               }}
             >
-              &quot;Engineering is about making the right trade-offs.&quot;
+              AI · NLP Engineer
             </motion.p>
 
-            {/* 버튼 */}
-            <motion.div
+            {/* 소속 */}
+            <motion.p
               variants={fadeUp}
-              transition={{ duration: 0.5 }}
-              className="flex gap-3 flex-wrap"
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: 11,
+                color: "var(--ink-light)",
+                marginBottom: 32,
+                letterSpacing: "0.02em",
+              }}
             >
+              성신여자대학교 AI융합학부
+            </motion.p>
+
+            {/* 한 줄 소개 */}
+            <motion.p
+              variants={fadeUp}
+              style={{
+                fontSize: 14,
+                lineHeight: 1.85,
+                color: "var(--ink-light)",
+                maxWidth: 420,
+                marginBottom: 36,
+                fontStyle: "italic",
+              }}
+            >
+              &ldquo;Engineering is about making the right trade-offs.&rdquo;
+            </motion.p>
+
+            {/* CTA 버튼 */}
+            <motion.div variants={fadeUp} style={{ display: "flex", gap: 10 }}>
               <a
                 href="#projects"
-                className="px-6 py-3 text-[13px] font-semibold transition-all duration-150"
-                style={{ background: "#7C3AED", color: "#fff", borderRadius: 8 }}
-                onMouseEnter={(e) => (e.currentTarget.style.background = "#6D28D9")}
-                onMouseLeave={(e) => (e.currentTarget.style.background = "#7C3AED")}
+                style={{
+                  display: "inline-block",
+                  padding: "9px 20px",
+                  fontSize: 13,
+                  fontWeight: 600,
+                  background: "var(--accent)",
+                  color: "#fff",
+                  borderRadius: 4,
+                  textDecoration: "none",
+                  transition: "opacity 0.15s",
+                }}
+                onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.85")}
+                onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
               >
                 프로젝트 보기
               </a>
               <a
                 href="#contact"
-                className="px-6 py-3 text-[13px] font-semibold transition-all duration-150"
                 style={{
+                  display: "inline-block",
+                  padding: "9px 20px",
+                  fontSize: 13,
+                  fontWeight: 600,
                   background: "transparent",
-                  color: "#374151",
-                  border: "1.5px solid #D1D5DB",
-                  borderRadius: 8,
+                  color: "var(--ink-mid)",
+                  border: "1px solid var(--border)",
+                  borderRadius: 4,
+                  textDecoration: "none",
+                  transition: "border-color 0.15s, color 0.15s",
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = "#7C3AED";
-                  e.currentTarget.style.color = "#7C3AED";
+                  e.currentTarget.style.borderColor = "var(--accent)";
+                  e.currentTarget.style.color = "var(--accent)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = "#D1D5DB";
-                  e.currentTarget.style.color = "#374151";
+                  e.currentTarget.style.borderColor = "var(--border)";
+                  e.currentTarget.style.color = "var(--ink-mid)";
                 }}
               >
                 연락하기
@@ -121,32 +181,44 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* 우측: 프로필 */}
+          {/* 우측: 프로필 사진 */}
           <motion.div
             variants={fadeUp}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            className="hidden lg:block"
+            style={{ display: "none" }}
+            className="lg-photo"
           >
             <div
               style={{
-                width: 230,
-                aspectRatio: "4/5",
-                background: "linear-gradient(155deg, #F5ECD7 0%, #EDE0C4 100%)",
-                borderRadius: 20,
+                width: 192,
+                height: 240,
                 overflow: "hidden",
-                boxShadow: "0 8px 40px rgba(124,58,237,0.12)",
+                borderRadius: 8,
+                border: "1px solid var(--border)",
+                flexShrink: 0,
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={profilePhoto}
                 alt="이채연"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "top center",
+                  display: "block",
+                }}
               />
             </div>
           </motion.div>
         </motion.div>
       </div>
+
+      <style>{`
+        @media (min-width: 768px) {
+          .lg-photo { display: block !important; }
+        }
+      `}</style>
     </section>
   );
 }

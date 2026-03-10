@@ -2,63 +2,65 @@
 
 import { motion } from "framer-motion";
 
-const W = 960;
-
 export default function EducationSection() {
   return (
     <section
       id="education"
-      style={{ background: "#F9FAFB", borderTop: "1px solid #E5E7EB", borderBottom: "1px solid #E5E7EB" }}
+      style={{ borderTop: "1px solid var(--border)" }}
     >
-      <div className="mx-auto px-8 py-20" style={{ maxWidth: W }}>
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+      <div
+        style={{
+          maxWidth: "var(--cw)",
+          margin: "0 auto",
+          padding: "48px var(--cp)",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "var(--font-mono)",
+            fontSize: 10,
+            letterSpacing: "0.2em",
+            textTransform: "uppercase",
+            color: "var(--accent)",
+            marginBottom: 40,
+          }}
         >
-          <h2 className="font-black text-[28px] tracking-tight" style={{ color: "#111827" }}>
-            학력
-          </h2>
-        </motion.div>
+          Education
+        </p>
 
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.1, duration: 0.5 }}
-          className="mx-auto flex items-start justify-between gap-6 p-7"
+          transition={{ duration: 0.45 }}
           style={{
-            maxWidth: 520,
-            background: "#fff",
-            border: "1px solid #E5E7EB",
-            borderLeft: "3px solid #7C3AED",
-            borderRadius: 12,
+            display: "grid",
+            gridTemplateColumns: "140px 1fr",
+            gap: 24,
+            alignItems: "baseline",
+            padding: "18px 0",
+            borderBottom: "1px solid var(--border-sub)",
           }}
         >
-          <div>
-            <p className="font-bold text-[16px] mb-2" style={{ color: "#111827" }}>
-              성신여자대학교
-            </p>
-            <p className="text-[14px] leading-[1.8] mb-1.5" style={{ color: "#6B7280" }}>
-              AI융합학부 전공
-            </p>
-            <p className="font-mono text-[11.5px]" style={{ color: "#9CA3AF" }}>
-              졸업예정 · 2026년 8월
-            </p>
-          </div>
           <span
-            className="font-mono text-[10px] px-3 py-1.5 shrink-0"
             style={{
-              background: "#EDE9FE",
-              color: "#7C3AED",
-              borderRadius: 6,
-              whiteSpace: "nowrap",
+              fontFamily: "var(--font-mono)",
+              fontSize: 11,
+              fontWeight: 600,
+              color: "var(--accent)",
+              letterSpacing: "0.04em",
             }}
           >
-            재학 중
+            성신여자대학교
           </span>
+          <div>
+            <p style={{ fontSize: 14, color: "var(--ink)", fontWeight: 600, marginBottom: 4 }}>
+              AI융합학부 전공
+            </p>
+            <p style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--ink-light)" }}>
+              재학 중 · 졸업예정 2026.08
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>
