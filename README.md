@@ -12,9 +12,9 @@
 <br />
 
 [![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=8B5CF6&label=hits&size=small)](https://myhits.vercel.app)
-[![solved.ac](http://mazassumnida.wtf/api/mini/generate_badge?boj=lcylcy3816)](https://solved.ac/lcylcy3816)
+[![solved.ac](https://mazassumnida.wtf/api/mini/generate_badge?boj=lcylcy3816)](https://solved.ac/lcylcy3816)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
-[![Resume](https://img.shields.io/badge/Resume-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://cofldus.github.io/resume/)
+[![Resume](https://img.shields.io/badge/Resume-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
 [![GitHub](https://img.shields.io/badge/GitHub-cofldus-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cofldus)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Chaeyeon%20Lee-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaeyeon-lee-113698274)
 [![Email](https://img.shields.io/badge/Email-lcyicy1717%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
@@ -134,7 +134,7 @@
 
 <br />
 
-<img src="http://mazandi.herokuapp.com/api?handle=lcylcy3816&theme=warm" />
+<img src="https://mazandi.herokuapp.com/api?handle=lcylcy3816&theme=warm" />
 
 <br />
 
@@ -146,7 +146,7 @@
 - GitHub: https://github.com/cofldus
 - LinkedIn: https://www.linkedin.com/in/chaeyeon-lee-113698274
 - Portfolio: https://cofldus.github.io/
-- Resume: https://cofldus.github.io/resume/
+- Resume: https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf
 - Projects: [Repo URL]
 
 <div align="center">
