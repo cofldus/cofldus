@@ -1,11 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=165&color=0:4C1D95,45:7C3AED,100:C084FC&section=header&text=Lee%20Chaeyeon&fontSize=52&fontColor=F7FCFF&fontAlignY=45&desc=AI%20%2F%20NLP%20Engineer&descSize=22&descAlignY=70" />
+<img src="assets/banner-purple.svg" width="100%" alt="Lee Chaeyeon banner" />
 
-데이터 기반 문제정의와 실험 설계로, 서비스에 바로 연결되는 AI를 만듭니다.
-
-[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=7C3AED&label=hits&size=small)](https://myhits.vercel.app)
-[![solved.ac](https://mazassumnida.wtf/api/mini/generate_badge?boj=lcylcy3816)](https://solved.ac/lcylcy3816)
 [![Portfolio](https://img.shields.io/badge/Portfolio-6D28D9?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
 [![Resume](https://img.shields.io/badge/Resume-7C3AED?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
 [![GitHub](https://img.shields.io/badge/GitHub-1F2937?style=flat-square&logo=github&logoColor=white)](https://github.com/cofldus)
@@ -15,6 +11,10 @@
 </div>
 
 ---
+
+## Extras
+[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=7C3AED&label=hits&size=small)](https://myhits.vercel.app)
+[![solved.ac](https://mazassumnida.wtf/api/mini/generate_badge?boj=lcylcy3816)](https://solved.ac/lcylcy3816)
 
 ## About Me
 - AI/NLP 엔지니어로서 문제 분해, 데이터 설계, 모델링, API 서빙, 운영 최적화까지 E2E로 수행합니다.
