@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:22143A,50:4C2FA8,100:8E7CFF&height=180&section=header&text=%EC%9D%B4%EC%B1%84%EC%97%B0%20Lee%20Chaeyeon&fontSize=40&fontColor=F8F9FF" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0F1226,50:2B2F55,100:6E6AAE&section=header&text=%EC%9D%B4%EC%B1%84%EC%97%B0%20Lee%20Chaeyeon&fontSize=38&fontColor=EDEEFF&desc=AI%20%2F%20NLP%20Engineer&descSize=18&descAlignY=68" />
 
 <img src="https://avatars.githubusercontent.com/cofldus?s=220&v=4" width="148" alt="Lee Chaeyeon profile photo" style="border-radius:50%;" />
 
@@ -9,22 +9,24 @@
 
 <br />
 
-[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=7C6CFF&label=hits&size=small)](https://myhits.vercel.app)
+[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=5D5FEF&label=hits&size=small)](https://myhits.vercel.app)
 [![solved.ac](https://mazassumnida.wtf/api/mini/generate_badge?boj=lcylcy3816)](https://solved.ac/lcylcy3816)
-[![Portfolio](https://img.shields.io/badge/Portfolio-32206E?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
-[![Resume](https://img.shields.io/badge/Resume-4B33A8?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
-[![GitHub](https://img.shields.io/badge/GitHub-2B1B5A?style=flat-square&logo=github&logoColor=white)](https://github.com/cofldus)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-5D3FD3?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaeyeon-lee-113698274)
-[![Email](https://img.shields.io/badge/Email-6E56CF?style=flat-square&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1E223E?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
+[![Resume](https://img.shields.io/badge/Resume-30345C?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
+[![GitHub](https://img.shields.io/badge/GitHub-151824?style=flat-square&logo=github&logoColor=white)](https://github.com/cofldus)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-444A82?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaeyeon-lee-113698274)
+[![Email](https://img.shields.io/badge/Email-565E9D?style=flat-square&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
 
 </div>
 
-## 1) About Me
+---
+
+## About Me
 - AI/NLP 엔지니어로서 문제 분해, 데이터 설계, 모델링, API 서빙, 운영 최적화까지 E2E로 수행합니다.
 - 강점 분야: RAG/LLM 응용, 한국어 텍스트 처리, 추천/예측, 시뮬레이션 기반 의사결정 지원.
 - 목표: 모델 성능뿐 아니라 지연시간·비용·유지보수성까지 검증 가능한 결과를 만드는 것.
 
-## 2) Tech Stack
+## Tech Stack
 ### Language / ML
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -53,14 +55,14 @@
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
-## 3) Featured Metrics
+## Featured Metrics
 - **76%** 모델 경량화, **61%** 응답속도 개선, **0.1s** 벡터 검색 (KillKong)
 - SSIM **0.82 -> 0.88**, PSNR 변동률 **18% -> 5%** (CT-MRI)
 - 리포트 생성 **5분 -> 30초**, GPT 비용 **70% 절감**, 재무 오류율 **80% -> 15%** (FinView)
 - 혼잡 회피 성공률 **87%**, 사용자 만족도 **4.6/5.0** (눈치게임)
 - 48시간 내 E2E 구축, BLEU **+23%**, 반복 처리 **70% 감소** (AiRPA)
 
-## 4) Projects
+## Projects
 
 ### 1. lovelop | AI 상권분석 및 시뮬레이션 SaaS (Core)
 - 한 줄 요약: 외식업 점주 대상 진단-해결안-시뮬레이션-리포트를 연결한 웹 AI SaaS.
@@ -111,28 +113,28 @@
 - **Tech** KoELECTRA, KoBART, JAMO preprocessing, custom dictionary, classifier-routing architecture
 - 링크: [Repo URL] | [Portfolio](https://cofldus.github.io/)
 
-## 5) Interests
+## Interests
 - 한국어 LLM 응용(교정/요약/정보추출)과 신뢰 가능한 평가 체계
 - 시뮬레이션 기반 의사결정 지원(What-if analysis)
 - 정확도·지연시간·비용의 균형을 갖춘 실서비스형 AI
 
-## 6) GitHub Stats
+## GitHub Stats
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&theme=midnight-purple" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&theme=midnight-purple" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cofldus&theme=tokyonight" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cofldus&theme=tokyonight" />
 
 <br />
 
-<img height="165" src="https://streak-stats.demolab.com?user=cofldus&theme=midnight-purple&hide_border=true" />
+<img height="165" src="https://streak-stats.demolab.com?user=cofldus&theme=tokyonight&hide_border=true" />
 
 <br />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cofldus&theme=github-dark&hide_border=true&color=B39DFF&line=8B7CFF&point=CABEFF" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cofldus&theme=tokyo-night&hide_border=true&color=A9A9FF&line=7E84FF&point=C9CCFF" />
 
 </div>
 
-## 7) Contact
+## Contact
 - GitHub: https://github.com/cofldus
 - LinkedIn: https://www.linkedin.com/in/chaeyeon-lee-113698274
 - Portfolio: https://cofldus.github.io/
@@ -140,5 +142,5 @@
 - Projects: [Repo URL]
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8E7CFF,50:4C2FA8,100:22143A&height=70&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:6E6AAE,50:2B2F55,100:0F1226&section=footer" />
 </div>
