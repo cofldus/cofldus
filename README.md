@@ -1,23 +1,21 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2B1B5A,50:5E3BEE,100:A78BFA&height=240&section=header&text=%EC%9D%B4%EC%B1%84%EC%97%B0%20Lee%20Chaeyeon&fontSize=42&fontColor=F8F9FF&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:22143A,50:4C2FA8,100:8E7CFF&height=180&section=header&text=%EC%9D%B4%EC%B1%84%EC%97%B0%20Lee%20Chaeyeon&fontSize=40&fontColor=F8F9FF" />
 
 <img src="https://avatars.githubusercontent.com/cofldus?s=220&v=4" width="148" alt="Lee Chaeyeon profile photo" style="border-radius:50%;" />
 
 <h2>AI / NLP Engineer</h2>
-<p>데이터 기반 문제정의와 실험 설계를 통해, 서비스에 바로 연결되는 AI 시스템을 구현합니다.</p>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2600&pause=900&center=true&vCenter=true&width=760&lines=RAG%2FLLM+Engineering;Korean+NLP+%26+Evaluation+Design;Latency%2C+Cost%2C+Accuracy+Trade-off+Optimization" />
+<p>데이터 기반 문제정의와 실험 설계로, 서비스에 바로 연결되는 AI를 만듭니다.</p>
 
 <br />
 
-[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=8B5CF6&label=hits&size=small)](https://myhits.vercel.app)
+[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=7C6CFF&label=hits&size=small)](https://myhits.vercel.app)
 [![solved.ac](https://mazassumnida.wtf/api/mini/generate_badge?boj=lcylcy3816)](https://solved.ac/lcylcy3816)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
-[![Resume](https://img.shields.io/badge/Resume-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
-[![GitHub](https://img.shields.io/badge/GitHub-cofldus-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cofldus)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chaeyeon%20Lee-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaeyeon-lee-113698274)
-[![Email](https://img.shields.io/badge/Email-lcyicy1717%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-32206E?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
+[![Resume](https://img.shields.io/badge/Resume-4B33A8?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
+[![GitHub](https://img.shields.io/badge/GitHub-2B1B5A?style=flat-square&logo=github&logoColor=white)](https://github.com/cofldus)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-5D3FD3?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaeyeon-lee-113698274)
+[![Email](https://img.shields.io/badge/Email-6E56CF?style=flat-square&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
 
 </div>
 
@@ -121,8 +119,8 @@
 ## 6) GitHub Stats
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cofldus&theme=tokyonight" />
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cofldus&theme=tokyonight" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&theme=midnight-purple" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&theme=midnight-purple" />
 
 <br />
 
@@ -130,15 +128,7 @@
 
 <br />
 
-<img src="https://github-profile-trophy.vercel.app/?username=cofldus&theme=onestar&no-frame=true&row=1&column=6" />
-
-<br />
-
-<img src="https://mazandi.herokuapp.com/api?handle=lcylcy3816&theme=warm" />
-
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cofldus&theme=react-dark&hide_border=true&color=A78BFA&line=8B5CF6&point=C4B5FD" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cofldus&theme=github-dark&hide_border=true&color=B39DFF&line=8B7CFF&point=CABEFF" />
 
 </div>
 
@@ -150,5 +140,5 @@
 - Projects: [Repo URL]
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A78BFA,50:5E3BEE,100:2B1B5A&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8E7CFF,50:4C2FA8,100:22143A&height=70&section=footer" />
 </div>
