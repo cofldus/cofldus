@@ -115,8 +115,8 @@
 ## GitHub Stats
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&bg_color=FBF7FF&title_color=5B21B6&text_color=6D28D9&icon_color=A855F7&cache_seconds=21600" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&bg_color=FBF7FF&title_color=5B21B6&text_color=6D28D9&cache_seconds=21600" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cofldus&theme=tokyonight" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cofldus&theme=tokyonight" />
 
 <br />
 
