@@ -2,10 +2,10 @@
 
 <img src="assets/banner-purple.svg" width="100%" alt="Lee Chaeyeon banner" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-3B1F66?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
-[![Resume](https://img.shields.io/badge/Resume-4A2A7A?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-344869?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaeyeon-lee-113698274)
-[![Email](https://img.shields.io/badge/Email-5A3A8A?style=flat-square&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-9F7AEA?style=for-the-badge&logo=vercel&logoColor=white)](https://cofldus.github.io/)
+[![Resume](https://img.shields.io/badge/Resume-B794F4?style=for-the-badge&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-7F9CF5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaeyeon-lee-113698274)
+[![Email](https://img.shields.io/badge/Email-F6AD55?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
 
 </div>
 
