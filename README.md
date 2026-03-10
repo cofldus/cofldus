@@ -28,7 +28,7 @@ AI Agent 기반 가상 고객 시뮬레이션으로 상권 전략을 사전 검�
 - 핵심 성과 1: 과거 요약형 분석 한계를 넘어 변경안 적용 결과 예측 구조 구현
 - 핵심 성과 2: `lop진단 -> 시뮬레이션 -> 결과 리포트` 파이프라인으로 실행 전략 제공
 - 역할/기술: 데이터 전처리, AI Agent 페르소나/행동 로직 설계, 시뮬레이션 검증 | Gemma, EXAONE, GPT-5.2
-- 링크: [Repo](https://github.com/khai-likelion/agent-sim) · [Portfolio](https://cofldus.github.io/)
+- 링크: [Repo](https://github.com/cofldus/lovelop_commerce-agent-simulation) · [Portfolio](https://cofldus.github.io/)
 
 ### KillKong — 콩글리쉬 교정 AI Agent
 콩글리쉬 교정 + 오답노트/퀴즈 생성을 결합한 학습형 AI 에이전트.
