@@ -1,17 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=150&color=0:0A327E,45:005FE0,100:00BCEB&section=header&text=LEE%20CHAEYEON&fontSize=48&fontColor=F7FCFF&fontAlignY=42&desc=%EC%9D%B4%EC%B1%84%EC%97%B0&descSize=26&descAlignY=72" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=115&color=0:4C1D95,45:7C3AED,100:C084FC&section=header&text=%20" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=40&duration=3500&pause=99999&center=true&vCenter=true&width=900&color=6D28D9&lines=%EC%9D%B4%EC%B1%84%EC%97%B0+%C2%B7+Lee+Chaeyeon" />
 
 ### AI / NLP Engineer
 데이터 기반 문제정의와 실험 설계로, 서비스에 바로 연결되는 AI를 만듭니다.
 
-[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=0077CC&label=hits&size=small)](https://myhits.vercel.app)
+[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fcofldus%2Fcofldus?color=7C3AED&label=hits&size=small)](https://myhits.vercel.app)
 [![solved.ac](https://mazassumnida.wtf/api/mini/generate_badge?boj=lcylcy3816)](https://solved.ac/lcylcy3816)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0057B8?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
-[![Resume](https://img.shields.io/badge/Resume-0077CC?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6D28D9?style=flat-square&logo=vercel&logoColor=white)](https://cofldus.github.io/)
+[![Resume](https://img.shields.io/badge/Resume-7C3AED?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf)
 [![GitHub](https://img.shields.io/badge/GitHub-1F2937?style=flat-square&logo=github&logoColor=white)](https://github.com/cofldus)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaeyeon-lee-113698274)
-[![Email](https://img.shields.io/badge/Email-0097A7?style=flat-square&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
+[![Email](https://img.shields.io/badge/Email-A855F7?style=flat-square&logo=gmail&logoColor=white)](mailto:lcyicy1717@gmail.com)
 
 </div>
 
@@ -116,16 +118,16 @@
 ## GitHub Stats
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&bg_color=F5FAFF&title_color=0B3D91&text_color=1E4F8A&icon_color=0097A7" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&bg_color=F5FAFF&title_color=0B3D91&text_color=1E4F8A" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=cofldus&show_icons=true&hide_border=true&bg_color=FBF7FF&title_color=5B21B6&text_color=6D28D9&icon_color=A855F7" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cofldus&layout=compact&hide_border=true&bg_color=FBF7FF&title_color=5B21B6&text_color=6D28D9" />
 
 <br />
 
-<img height="165" src="https://streak-stats.demolab.com?user=cofldus&hide_border=true&background=F5FAFF&ring=0077CC&fire=00B8D9&currStreakNum=0B3D91&sideNums=0B3D91&currStreakLabel=1E4F8A&sideLabels=1E4F8A&dates=3A82B8" />
+<img height="165" src="https://streak-stats.demolab.com?user=cofldus&hide_border=true&background=FBF7FF&ring=7C3AED&fire=A855F7&currStreakNum=5B21B6&sideNums=5B21B6&currStreakLabel=6D28D9&sideLabels=6D28D9&dates=9F67E8" />
 
 <br />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cofldus&theme=github-light&hide_border=true&color=0B3D91&line=0077CC&point=00B8D9" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cofldus&theme=github-light&hide_border=true&color=6D28D9&line=8B5CF6&point=C084FC" />
 
 </div>
 
@@ -137,5 +139,5 @@
 - Projects: [Repo URL]
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=80&color=0:00B8D9,50:006EDC,100:0B3D91&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=80&color=0:C084FC,50:7C3AED,100:4C1D95&section=footer" />
 </div>
