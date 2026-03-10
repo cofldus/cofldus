@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Lee Chaeyeon banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#25124D" />
+      <stop offset="55%" stop-color="#5C34B2" />
+      <stop offset="100%" stop-color="#B79BEE" />
+    </linearGradient>
+    <linearGradient id="divider" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.12" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)" rx="6" />
+  <rect width="1280" height="320" fill="url(#grid)" rx="6" />
+
+  <ellipse cx="640" cy="95" rx="280" ry="58" fill="#DCCEFF" fill-opacity="0.12" filter="url(#softGlow)" />
+
+  <g text-anchor="middle" fill="#F8F7FF" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="640" y="144" font-size="66" font-weight="800" letter-spacing="0.5">Lee Chaeyeon</text>
+    <text x="640" y="188" font-size="30" font-weight="650" fill="#E6DEFF">AI / NLP Engineer</text>
+    <rect x="420" y="208" width="440" height="1.6" fill="url(#divider)" />
+    <text x="640" y="242" font-size="20" font-weight="500" fill="#E7E0FF" opacity="0.92">Data-driven AI systems for real-world services</text>
+  </g>
+</svg>
