@@ -1,5 +1,7 @@
-<svg width="134" height="30" viewBox="0 0 134 30" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="133" height="29" fill="#B59AE8" stroke="#9B80D4" stroke-width="1" rx="2"/>
-  <path d="M15 19V12H22M22 12H16M22 12L14 20" stroke="#231046" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="31" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#231046" letter-spacing="1.4">PORTFOLIO</text>
+<svg width="128" height="22" viewBox="0 0 128 22" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="22" fill="#CBB8F5" rx="3"/>
+  <g transform="translate(20, 6)">
+    <path d="M4 8V3H8M8 3H3.5M8 3L2 9" stroke="#5A33AF" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="38" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#231046" letter-spacing="1.4">PORTFOLIO</text>
 </svg>
