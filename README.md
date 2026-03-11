@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://cofldus.github.io/"><img src="assets/btn-portfolio.svg" alt="Portfolio" /></a>&nbsp;
-  <a href="https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf"><img src="assets/btn-cv.svg" alt="CV" /></a>&nbsp;
+  <a href="https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf"><img src="assets/btn-resume.svg" alt="Resume" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/chaeyeon-lee-113698274"><img src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:lcyicy1717@gmail.com"><img src="assets/btn-email.svg" alt="Email" /></a>
 </p>
