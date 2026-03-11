@@ -2,5 +2,5 @@
   <rect width="122" height="28" fill="#3B1F8C" rx="2"/>
   <rect x="0.5" y="0.5" width="121" height="27" fill="none" stroke="#6B4FC8" stroke-width="0.8" rx="2"/>
   <path d="M11 9.5H21M11 14H21M11 18.5H17" stroke="#C4B0FF" stroke-width="1.2" stroke-linecap="square"/>
-  <text x="28" y="18.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#EDE8FF" letter-spacing="1.4">CV</text>
+  <text x="28" y="18.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#EDE8FF" letter-spacing="1.4">RESUME</text>
 </svg>
