@@ -3,42 +3,10 @@
 <img src="assets/banner-purple.svg" width="100%" alt="Lee Chaeyeon banner" />
 
 <p align="center">
-  <a href="https://cofldus.github.io/" style="text-decoration:none;">
-    <span style="display:inline-flex; align-items:center; gap:8px; padding:6px 12px; margin:0 4px; border:1px solid #DDD6F7; background:#F7F4FF; color:#6F63A8; font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">
-      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="1.5" y="1.5" width="9" height="9" stroke="#A999E2" stroke-width="1.2"/>
-      </svg>
-      Portfolio
-    </span>
-  </a>
-
-  <a href="https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf" style="text-decoration:none;">
-    <span style="display:inline-flex; align-items:center; gap:8px; padding:6px 12px; margin:0 4px; border:1px solid #E8E2FA; background:#FCFAFF; color:#7E73B3; font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">
-      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M2 3H10M2 6H10M2 9H8" stroke="#B8ADF0" stroke-width="1.2" stroke-linecap="square"/>
-      </svg>
-      CV
-    </span>
-  </a>
-
-  <a href="https://www.linkedin.com/in/chaeyeon-lee-113698274" style="text-decoration:none;">
-    <span style="display:inline-flex; align-items:center; gap:8px; padding:6px 12px; margin:0 4px; border:1px solid #DDD6F7; background:#F7F4FF; color:#6F63A8; font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">
-      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M3 9L9 3M5 3H9V7" stroke="#A999E2" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="miter"/>
-      </svg>
-      LinkedIn
-    </span>
-  </a>
-
-  <a href="mailto:lcyicy1717@gmail.com" style="text-decoration:none;">
-    <span style="display:inline-flex; align-items:center; gap:8px; padding:6px 12px; margin:0 4px; border:1px solid #E8E2FA; background:#FCFAFF; color:#7E73B3; font-size:12px; letter-spacing:0.1em; text-transform:uppercase;">
-      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="1.5" y="2.5" width="9" height="7" stroke="#B8ADF0" stroke-width="1.2"/>
-        <path d="M2 3L6 6.2L10 3" stroke="#B8ADF0" stroke-width="1.2" fill="none"/>
-      </svg>
-      Email
-    </span>
-  </a>
+  <a href="https://cofldus.github.io/"><img src="assets/btn-portfolio.svg" alt="Portfolio" /></a>&nbsp;
+  <a href="https://github.com/cofldus/cofldus/blob/main/assets/resume_leechaeyeon.pdf"><img src="assets/btn-cv.svg" alt="CV" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/chaeyeon-lee-113698274"><img src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:lcyicy1717@gmail.com"><img src="assets/btn-email.svg" alt="Email" /></a>
 </p>
 
 </div>
