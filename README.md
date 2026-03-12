@@ -77,8 +77,6 @@ AI Agent 기반 가상 고객 시뮬레이션으로 상권 전략을 사전 검�
 
 <br />
 
-## Education · Certifications · Awards
-
 <p align="center">
   <img src="assets/edu-certs-awards.svg" width="860" alt="Education, Certifications, Awards" />
 </p>
