@@ -1,37 +1,45 @@
-<svg width="860" height="130" viewBox="0 0 860 130" xmlns="http://www.w3.org/2000/svg">
-  <rect width="860" height="130" fill="#F7F4FF" rx="6"/>
-  <rect x="0.5" y="0.5" width="859" height="129" fill="none" stroke="#DDD6F7" stroke-width="1" rx="6"/>
+<svg width="860" height="128" viewBox="0 0 860 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card background -->
+  <rect width="860" height="128" fill="#F9F7FF" rx="6"/>
+  <rect x="0.5" y="0.5" width="859" height="127" fill="none" stroke="#DDD6F7" stroke-width="1" rx="6"/>
+
+  <!-- Section title chips -->
+  <rect x="16" y="11" width="80" height="15" fill="#5A33AF" rx="2"/>
+  <rect x="432" y="11" width="118" height="15" fill="#5A33AF" rx="2"/>
+  <rect x="652" y="11" width="57" height="15" fill="#5A33AF" rx="2"/>
 
   <!-- Vertical dividers -->
-  <line x1="420" y1="12" x2="420" y2="118" stroke="#E0D5F5" stroke-width="1"/>
-  <line x1="645" y1="12" x2="645" y2="118" stroke="#E0D5F5" stroke-width="1"/>
+  <line x1="420" y1="10" x2="420" y2="118" stroke="#DDD6F7" stroke-width="1"/>
+  <line x1="641" y1="10" x2="641" y2="118" stroke="#DDD6F7" stroke-width="1"/>
 
-  <!-- EDUCATION -->
-  <text x="20" y="20" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" font-weight="700" fill="#A090D0" letter-spacing="1.6">EDUCATION</text>
-  <text x="20" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#1A0A38">성신여자대학교 · AI융합학부</text>
-  <text x="20" y="46" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#6B50A8">GPA 3.94 / 4.50 · 전공 4.05 / 4.50 · 2021.03 – 2026.08 예정</text>
-  <line x1="20" y1="54" x2="406" y2="54" stroke="#DDD6F7" stroke-width="0.8"/>
-  <text x="20" y="65" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· AI 자연어처리 엔지니어 과정 · 멋쟁이사자처럼 · 2025–2026</text>
-  <text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· 청년 AI·Bigdata 아카데미 · 포스코 · 2025</text>
-  <text x="20" y="87" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· LG Aimers 4기 / 2기 · LG AI연구원 · 2024 / 2023</text>
-  <text x="20" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· Microsoft 정보보안과정 · 고용노동부 · 2023</text>
-  <text x="20" y="109" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· 연세대 학생창업경진대회 A등급 수료 · 교육부 · 2022</text>
+  <!-- Chip labels -->
+  <text x="20" y="22" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" font-weight="700" fill="white" letter-spacing="1.2">EDUCATION</text>
+  <text x="436" y="22" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" font-weight="700" fill="white" letter-spacing="1.2">CERTIFICATIONS</text>
+  <text x="656" y="22" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" font-weight="700" fill="white" letter-spacing="1.2">AWARDS</text>
 
-  <!-- CERTIFICATIONS -->
-  <text x="432" y="20" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" font-weight="700" fill="#A090D0" letter-spacing="1.6">CERTIFICATIONS</text>
-  <text x="432" y="36" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="700" fill="#1A0A38">빅데이터분석기사</text>
-  <text x="432" y="47" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">한국데이터산업진흥원 · 2025.12</text>
-  <text x="432" y="62" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="700" fill="#1A0A38">ADsP</text>
-  <text x="432" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">한국데이터산업진흥원 · 2026.03</text>
-  <text x="432" y="88" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="700" fill="#1A0A38">OPIc IH</text>
-  <text x="432" y="99" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">ACTFL · 2025.08</text>
+  <!-- ── EDUCATION ── -->
+  <text x="16" y="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#1A0A38">성신여자대학교 · AI융합학부</text>
+  <text x="16" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#6B50A8">GPA 3.94 / 4.50 · 전공 4.05 / 4.50 · 2021.03 – 2026.08 예정</text>
+  <line x1="16" y1="57" x2="406" y2="57" stroke="#E0D5F5" stroke-width="0.8"/>
+  <text x="16" y="68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· AI 자연어처리 엔지니어 과정 · 멋쟁이사자처럼 · 2025–2026</text>
+  <text x="16" y="79" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· 청년 AI·Bigdata 아카데미 · 포스코 · 2025</text>
+  <text x="16" y="90" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· LG Aimers 4기 / 2기 · LG AI연구원 · 2024 / 2023</text>
+  <text x="16" y="101" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· Microsoft 정보보안과정 · 고용노동부 · 2023</text>
+  <text x="16" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8.5" fill="#4A3680">· 연세대 학생창업경진대회 A등급 수료 · 교육부 · 2022</text>
 
-  <!-- AWARDS -->
-  <text x="657" y="20" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" font-weight="700" fill="#A090D0" letter-spacing="1.6">AWARDS</text>
-  <text x="657" y="36" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="700" fill="#1A0A38">장려상 · KillKong</text>
-  <text x="657" y="47" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">포스코 인재창조원 · 2025.08</text>
-  <text x="657" y="62" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="700" fill="#1A0A38">특별상 · AiRPA 해커톤</text>
-  <text x="657" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">한국지능정보사회진흥원 · 2023.11</text>
-  <text x="657" y="88" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="700" fill="#1A0A38">장려상 · 눈치게임</text>
-  <text x="657" y="99" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">성신여자대학교 · 2023.09</text>
+  <!-- ── CERTIFICATIONS ── -->
+  <text x="432" y="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#1A0A38">빅데이터분석기사</text>
+  <text x="432" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">한국데이터산업진흥원 · 2025.12</text>
+  <text x="432" y="66" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#1A0A38">ADsP</text>
+  <text x="432" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">한국데이터산업진흥원 · 2026.03</text>
+  <text x="432" y="94" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#1A0A38">OPIc IH</text>
+  <text x="432" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">ACTFL · 2025.08</text>
+
+  <!-- ── AWARDS ── -->
+  <text x="652" y="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#1A0A38">장려상 · KillKong</text>
+  <text x="652" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">포스코 인재창조원 · 2025.08</text>
+  <text x="652" y="66" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#1A0A38">특별상 · AiRPA 해커톤</text>
+  <text x="652" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">한국지능정보사회진흥원 · 2023.11</text>
+  <text x="652" y="94" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#1A0A38">장려상 · 눈치게임</text>
+  <text x="652" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" fill="#7060A8">성신여자대학교 · 2023.09</text>
 </svg>
