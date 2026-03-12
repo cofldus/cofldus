@@ -1,43 +1,43 @@
-<svg width="860" height="152" viewBox="0 0 860 152" xmlns="http://www.w3.org/2000/svg">
-  <rect width="860" height="152" fill="#F9F7FF" rx="6"/>
-  <rect x="0.5" y="0.5" width="859" height="151" fill="none" stroke="#DDD6F7" stroke-width="1" rx="6"/>
+<svg width="860" height="170" viewBox="0 0 860 170" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="170" fill="#F9F7FF" rx="6"/>
+  <rect x="0.5" y="0.5" width="859" height="169" fill="none" stroke="#DDD6F7" stroke-width="1" rx="6"/>
 
   <!-- Chips -->
-  <rect x="16" y="12" width="84" height="16" fill="#5A33AF" rx="2"/>
-  <rect x="432" y="12" width="122" height="16" fill="#5A33AF" rx="2"/>
-  <rect x="652" y="12" width="60" height="16" fill="#5A33AF" rx="2"/>
+  <rect x="18" y="14" width="84" height="17" fill="#5A33AF" rx="2"/>
+  <rect x="400" y="14" width="122" height="17" fill="#5A33AF" rx="2"/>
+  <rect x="638" y="14" width="60" height="17" fill="#5A33AF" rx="2"/>
 
   <!-- Dividers -->
-  <line x1="420" y1="10" x2="420" y2="142" stroke="#DDD6F7" stroke-width="1"/>
-  <line x1="641" y1="10" x2="641" y2="142" stroke="#DDD6F7" stroke-width="1"/>
+  <line x1="388" y1="12" x2="388" y2="158" stroke="#DDD6F7" stroke-width="1"/>
+  <line x1="626" y1="12" x2="626" y2="158" stroke="#DDD6F7" stroke-width="1"/>
 
   <!-- Chip text -->
-  <text x="20" y="23.5" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.1">EDUCATION</text>
-  <text x="436" y="23.5" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.1">CERTIFICATIONS</text>
-  <text x="656" y="23.5" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.1">AWARDS</text>
+  <text x="22" y="26" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.1">EDUCATION</text>
+  <text x="404" y="26" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.1">CERTIFICATIONS</text>
+  <text x="642" y="26" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.1">AWARDS</text>
 
   <!-- EDUCATION -->
-  <text x="16" y="44" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1A0A38">성신여자대학교 · AI융합학부</text>
-  <text x="16" y="58" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#6B50A8">GPA 3.94 / 4.50 · 전공 4.05 / 4.50 · 2021.03 – 2026.08 예정</text>
-  <line x1="16" y1="67" x2="406" y2="67" stroke="#E0D5F5" stroke-width="0.8"/>
-  <text x="16" y="81" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#4A3680">· AI 자연어처리 엔지니어 과정 · 멋쟁이사자처럼 · 2025–2026</text>
-  <text x="16" y="96" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#4A3680">· 청년 AI·Bigdata 아카데미 · 포스코 · 2025</text>
-  <text x="16" y="111" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#4A3680">· LG Aimers 4기 / 2기 · LG AI연구원 · 2024 / 2023</text>
-  <text x="16" y="126" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#4A3680">· Microsoft 정보보안과정 · 고용노동부 · 2023</text>
+  <text x="18" y="49" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#1A0A38">성신여자대학교 · AI융합학부</text>
+  <text x="18" y="65" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#6B50A8">GPA 3.94 / 4.50 · 전공 4.05 / 4.50 · 2021.03 – 2026.08 예정</text>
+  <line x1="18" y1="75" x2="374" y2="75" stroke="#E0D5F5" stroke-width="0.8"/>
+  <text x="18" y="93" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#4A3680">· AI 자연어처리 엔지니어 과정 · 멋쟁이사자처럼</text>
+  <text x="18" y="113" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#4A3680">· 청년 AI·Bigdata 아카데미 · 포스코</text>
+  <text x="18" y="133" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#4A3680">· LG Aimers 4기 / 2기 · LG AI연구원</text>
+  <text x="18" y="153" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#4A3680">· Microsoft 정보보안과정 · 고용노동부</text>
 
   <!-- CERTIFICATIONS -->
-  <text x="432" y="44" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1A0A38">빅데이터분석기사</text>
-  <text x="432" y="58" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#7060A8">한국데이터산업진흥원 · 2025.12</text>
-  <text x="432" y="77" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1A0A38">ADsP</text>
-  <text x="432" y="91" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#7060A8">한국데이터산업진흥원 · 2026.03</text>
-  <text x="432" y="110" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1A0A38">OPIc IH</text>
-  <text x="432" y="124" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#7060A8">ACTFL · 2025.08</text>
+  <text x="400" y="49" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#1A0A38">빅데이터분석기사</text>
+  <text x="400" y="65" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#7060A8">한국데이터산업진흥원 · 2025.12</text>
+  <text x="400" y="89" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#1A0A38">ADsP</text>
+  <text x="400" y="105" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#7060A8">한국데이터산업진흥원 · 2026.03</text>
+  <text x="400" y="129" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#1A0A38">OPIc IH</text>
+  <text x="400" y="145" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#7060A8">ACTFL · 2025.08</text>
 
   <!-- AWARDS -->
-  <text x="652" y="44" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1A0A38">장려상 · KillKong</text>
-  <text x="652" y="58" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#7060A8">포스코 인재창조원 · 2025.08</text>
-  <text x="652" y="77" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1A0A38">특별상 · AiRPA 해커톤</text>
-  <text x="652" y="91" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#7060A8">한국지능정보사회진흥원 · 2023.11</text>
-  <text x="652" y="110" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1A0A38">장려상 · 눈치게임</text>
-  <text x="652" y="124" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9.5" fill="#7060A8">성신여자대학교 · 2023.09</text>
+  <text x="638" y="49" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#1A0A38">장려상 · KillKong</text>
+  <text x="638" y="65" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#7060A8">포스코 인재창조원 · 2025.08</text>
+  <text x="638" y="89" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#1A0A38">특별상 · AiRPA 해커톤</text>
+  <text x="638" y="105" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#7060A8">한국지능정보사회진흥원 · 2023.11</text>
+  <text x="638" y="129" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#1A0A38">장려상 · 눈치게임</text>
+  <text x="638" y="145" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic','Helvetica Neue',Arial,sans-serif" font-size="10" fill="#7060A8">성신여자대학교 · 2023.09</text>
 </svg>
