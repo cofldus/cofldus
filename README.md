@@ -2,7 +2,7 @@
 
 # Chaeyeon Lee
 
-만드는 게 제일 재밌어서 이것저것 자꾸 만들어보는 개발자입니다. 가끔 밤새는 것도 좋아해요.
+Hi, Welcome to my little corner!
 
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-FF8FC0?style=flat-square&logo=googlechrome&logoColor=white" /></a>
