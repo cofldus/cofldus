@@ -1,9 +1,0 @@
-<svg width="128" height="22" viewBox="0 0 128 22" xmlns="http://www.w3.org/2000/svg">
-  <rect width="128" height="22" fill="#CBB8F5" rx="3"/>
-  <g transform="translate(32, 6)">
-    <path d="M0 0.5H6.5L8.5 2.5V9.5H0Z" stroke="#5A33AF" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M6.5 0.5V2.5H8.5" stroke="#5A33AF" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M1.5 4.5H7M1.5 6H7M1.5 7.5H5" stroke="#5A33AF" stroke-width="1" fill="none" stroke-linecap="round"/>
-  </g>
-  <text x="50" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#231046" letter-spacing="1.4">RESUME</text>
-</svg>
