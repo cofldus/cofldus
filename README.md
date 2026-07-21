@@ -1,18 +1,12 @@
 <div align="center">
 
-<div align="center">
-
-<h2>Welcome to my little orbit,</h2>
-
-<p>
+<p align="center">
+  <b>Welcome to my little orbit,</b>
+  <br>
   <i>where ideas compile into constellations. ✦</i>
-</p>
-
-<p>
+  <br><br>
   <sub>‎(*˙︶˙*)و</sub>
 </p>
-
-</div>
   
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
