@@ -1,6 +1,6 @@
 <div align="center">
 
-## Hi, welcome to my little corner 🌸
+$\Huge\color{#C3B1E1}\texttt{Hi, welcome to my little corner}$ 🌸
 
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
