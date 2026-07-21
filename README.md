@@ -1,12 +1,15 @@
 <div align="center">
 
-<p align="center">
-  <b>Welcome to my little orbit,</b>
-  <br>
-  <i>where ideas compile into constellations. ✦</i>
-  <br><br>
-  <sub>‎(*˙︶˙*)و</sub>
-</p>
+<div align="center">
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&center=true&vCenter=true&width=900&height=100&lines=Welcome+to+my+little+orbit%2C;where+ideas+compile+into+constellations.+%E2%9C%A6"
+  alt="Typing SVG"
+/>
+
+<h2>‎(*˙︶˙*)و</h2>
+
+</div>
   
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
