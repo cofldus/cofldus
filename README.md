@@ -1,8 +1,10 @@
 <div align="center">
 
+<txt>
 # Welcome to my little orbit, 
 where ideas compile into constellations. ✦ ‎(*˙︶˙*)و
-
+<txt>
+  
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/chaeyeon-lee-113698274"><img src="https://img.shields.io/badge/LinkedIn-E5A9C3?style=flat-square&logo=linkedin&logoColor=white" /></a>
