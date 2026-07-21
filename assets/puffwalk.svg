@@ -1,4 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 104" width="240" height="104" role="img" aria-label="a tiny pink puffball playing">
+  <defs>
+    <radialGradient id="pwBody" cx="37%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#ffd3e3"/>
+      <stop offset="46%" stop-color="#f4a6c0"/>
+      <stop offset="100%" stop-color="#d67c9f"/>
+    </radialGradient>
+    <radialGradient id="pwHi" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pwArm" cx="40%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#f6b7cd"/><stop offset="100%" stop-color="#dd88ac"/>
+    </radialGradient>
+    <linearGradient id="pwFoot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dd6d8e"/><stop offset="100%" stop-color="#bf4d70"/>
+    </linearGradient>
+  </defs>
   <style>
     .mover{animation:mv 18s cubic-bezier(.45,.05,.35,1) infinite}
     .tilt{transform-box:fill-box;transform-origin:50% 100%;animation:tl 18s ease-in-out infinite}
@@ -22,37 +39,37 @@
 
     @keyframes hp{
       0%{transform:translateY(0) scale(1,1)}
-      5%{transform:translateY(-3%) scale(.99,1.01)}
-      10%{transform:translateY(0) scale(1.12,.88)}
-      13%{transform:translateY(-34%) scale(.94,1.1)}
-      16%{transform:translateY(-52%) scale(1.04,1.04)}
-      19%{transform:translateY(-18%) scale(1,1)}
-      22%{transform:translateY(0) scale(1.15,.85)}
-      23.5%{transform:translateY(0) scale(.98,1.03)}
+      5%{transform:translateY(-3%) scale(.995,1.005)}
+      10%{transform:translateY(0) scale(1.06,.95)}
+      13%{transform:translateY(-32%) scale(.97,1.05)}
+      16%{transform:translateY(-50%) scale(1.02,1.02)}
+      19%{transform:translateY(-16%) scale(1,1)}
+      22%{transform:translateY(0) scale(1.07,.94)}
+      23.5%{transform:translateY(0) scale(.99,1.02)}
       25%{transform:translateY(0) scale(1,1)}
       30%{transform:translateY(0) scale(1,1)}
-      33%{transform:translateY(-13%) scale(1,1)}
-      37%{transform:translateY(-13%) scale(1,1)}
-      40%{transform:translateY(0) scale(1.07,.93)}
+      33%{transform:translateY(-12%) scale(1,1)}
+      37%{transform:translateY(-12%) scale(1,1)}
+      40%{transform:translateY(0) scale(1.04,.97)}
       41.5%{transform:translateY(0) scale(1,1)}
       50%{transform:translateY(0) scale(1,1)}
-      53%{transform:translateY(-11%) scale(.98,1.05)}
-      56%{transform:translateY(0) scale(1.09,.91)}
+      53%{transform:translateY(-10%) scale(.99,1.03)}
+      56%{transform:translateY(0) scale(1.05,.96)}
       58%{transform:translateY(0) scale(1,1)}
-      61%{transform:translateY(0) scale(1.12,.88)}
-      64%{transform:translateY(-47%) scale(.95,1.07)}
-      67%{transform:translateY(0) scale(1.14,.86)}
-      69%{transform:translateY(-40%) scale(.97,1.05)}
-      72%{transform:translateY(0) scale(1.13,.87)}
+      61%{transform:translateY(0) scale(1.06,.95)}
+      64%{transform:translateY(-44%) scale(.97,1.04)}
+      67%{transform:translateY(0) scale(1.07,.94)}
+      69%{transform:translateY(-38%) scale(.98,1.03)}
+      72%{transform:translateY(0) scale(1.06,.95)}
       73.5%{transform:translateY(0) scale(1,1)}
       80%{transform:translateY(0) scale(1,1)}
-      82.5%{transform:translateY(-22%) scale(.98,1.04)}
-      84.5%{transform:translateY(0) scale(1.1,.9)}
-      86.5%{transform:translateY(-22%) scale(.98,1.04)}
-      88.5%{transform:translateY(0) scale(1.1,.9)}
+      82.5%{transform:translateY(-20%) scale(.99,1.03)}
+      84.5%{transform:translateY(0) scale(1.05,.96)}
+      86.5%{transform:translateY(-20%) scale(.99,1.03)}
+      88.5%{transform:translateY(0) scale(1.05,.96)}
       90%{transform:translateY(0) scale(1,1)}
-      94%{transform:translateY(-7%) scale(.88,1.16)}
-      97%{transform:translateY(0) scale(1.09,.91)}
+      94%{transform:translateY(-6%) scale(.93,1.09)}
+      97%{transform:translateY(0) scale(1.05,.96)}
       100%{transform:translateY(0) scale(1,1)}}
 
     @keyframes sp{0%,32%{transform:scaleX(1)}33.5%{transform:scaleX(.12)}35%{transform:scaleX(-1)}36.5%{transform:scaleX(-.12)}38%{transform:scaleX(1)}
@@ -60,12 +77,12 @@
     @keyframes fc{0%,32%{opacity:1}33.5%{opacity:0}36.5%{opacity:0}38%{opacity:1}100%{opacity:1}}
 
     @keyframes tl{0%,25%{transform:rotate(0)}
-      26.5%{transform:rotate(-9deg)}28%{transform:rotate(8deg)}29.5%{transform:rotate(-4deg)}30%{transform:rotate(0)}
-      42%{transform:rotate(7deg)}46%{transform:rotate(-7deg)}50%{transform:rotate(0)}
-      60%{transform:rotate(-5deg)}61%{transform:rotate(0)}100%{transform:rotate(0)}}
+      26.5%{transform:rotate(-8deg)}28%{transform:rotate(7deg)}29.5%{transform:rotate(-3deg)}30%{transform:rotate(0)}
+      42%{transform:rotate(6deg)}46%{transform:rotate(-6deg)}50%{transform:rotate(0)}
+      60%{transform:rotate(-4deg)}61%{transform:rotate(0)}100%{transform:rotate(0)}}
 
-    @keyframes aL{0%,100%{transform:rotate(7deg)}50%{transform:rotate(-13deg)}}
-    @keyframes aR{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(13deg)}}
+    @keyframes aL{0%,100%{transform:rotate(6deg)}50%{transform:rotate(-11deg)}}
+    @keyframes aR{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(11deg)}}
 
     @keyframes neo{0%{opacity:1}30%{opacity:1}31%{opacity:0}40%{opacity:0}41%{opacity:1}
       50%{opacity:1}51%{opacity:0}58%{opacity:0}59%{opacity:1}74%{opacity:1}75%{opacity:0}80%{opacity:0}81%{opacity:1}100%{opacity:1}}
@@ -82,46 +99,47 @@
       32%{opacity:.9;transform:scale(1)}35%{opacity:.4;transform:scale(.7)}38%{opacity:.9;transform:scale(1.1)}40%{opacity:0;transform:scale(.4)}
       74%{opacity:0;transform:scale(.3)}77%{opacity:.9;transform:scale(1)}80%{opacity:0;transform:scale(1.2)}100%{opacity:0}}
 
-    @keyframes sh{0%{transform:scale(1)}5%{transform:scale(.96)}10%{transform:scale(1)}16%{transform:scale(.6)}22%{transform:scale(1.04)}25%{transform:scale(1)}
-      33%{transform:scale(.82)}37%{transform:scale(.82)}40%{transform:scale(1)}
-      53%{transform:scale(.9)}56%{transform:scale(1.03)}58%{transform:scale(1)}
-      64%{transform:scale(.6)}69%{transform:scale(.66)}72%{transform:scale(1.03)}73.5%{transform:scale(1)}
-      82.5%{transform:scale(.76)}86.5%{transform:scale(.76)}88.5%{transform:scale(1.02)}94%{transform:scale(.9)}100%{transform:scale(1)}}
+    @keyframes sh{0%{transform:scale(1)}5%{transform:scale(.97)}10%{transform:scale(1)}16%{transform:scale(.62)}22%{transform:scale(1.03)}25%{transform:scale(1)}
+      33%{transform:scale(.84)}37%{transform:scale(.84)}40%{transform:scale(1)}
+      53%{transform:scale(.92)}56%{transform:scale(1.02)}58%{transform:scale(1)}
+      64%{transform:scale(.64)}69%{transform:scale(.68)}72%{transform:scale(1.02)}73.5%{transform:scale(1)}
+      82.5%{transform:scale(.78)}86.5%{transform:scale(.78)}88.5%{transform:scale(1.02)}94%{transform:scale(.92)}100%{transform:scale(1)}}
 
     @media (prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
 
   <g class="mover">
     <g transform="translate(6,34) scale(0.58)">
-      <ellipse class="shadow" cx="50" cy="99" rx="28" ry="4.5" fill="rgba(120,70,90,.16)"/>
+      <ellipse class="shadow" cx="50" cy="99" rx="28" ry="4.5" fill="rgba(120,70,90,.18)"/>
       <g class="tilt"><g class="hop">
         <g class="spin">
-          <ellipse class="arm-l" cx="12" cy="60" rx="8" ry="11" fill="#efa0bb"/>
-          <ellipse class="arm-r" cx="88" cy="60" rx="8" ry="11" fill="#efa0bb"/>
-          <ellipse cx="36" cy="90" rx="12" ry="8" fill="#d1587a"/>
-          <ellipse cx="64" cy="90" rx="12" ry="8" fill="#d1587a"/>
-          <circle cx="50" cy="52" r="40" fill="#f4a6c0"/>
-          <ellipse cx="50" cy="66" rx="26" ry="20" fill="#fff" opacity=".26"/>
+          <ellipse class="arm-l" cx="12" cy="60" rx="8" ry="11" fill="url(#pwArm)"/>
+          <ellipse class="arm-r" cx="88" cy="60" rx="8" ry="11" fill="url(#pwArm)"/>
+          <ellipse cx="36" cy="90" rx="12" ry="8" fill="url(#pwFoot)"/>
+          <ellipse cx="64" cy="90" rx="12" ry="8" fill="url(#pwFoot)"/>
+          <circle cx="50" cy="52" r="40" fill="url(#pwBody)"/>
+          <path d="M17 62 A40 40 0 0 0 83 62 A34 20 0 0 1 17 62 Z" fill="#b85a7e" opacity=".14"/>
+          <ellipse cx="34" cy="33" rx="15" ry="11" fill="url(#pwHi)"/>
           <g class="face">
-          <ellipse cx="26" cy="60" rx="9" ry="5.5" fill="#f27ba6" opacity=".85"/>
-          <ellipse cx="74" cy="60" rx="9" ry="5.5" fill="#f27ba6" opacity=".85"/>
-          <g class="ne">
-            <g class="eye">
-              <ellipse cx="40" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
-              <ellipse cx="40" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
-              <circle cx="41.6" cy="40.5" r="2.3" fill="#fff"/>
+            <ellipse cx="27" cy="61" rx="8" ry="5" fill="#f27ba6" opacity=".65"/>
+            <ellipse cx="73" cy="61" rx="8" ry="5" fill="#f27ba6" opacity=".65"/>
+            <g class="ne">
+              <g class="eye">
+                <ellipse cx="40" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
+                <ellipse cx="40" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
+                <circle cx="41.6" cy="40.5" r="2.3" fill="#fff"/>
+              </g>
+              <g class="eye">
+                <ellipse cx="60" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
+                <ellipse cx="60" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
+                <circle cx="61.6" cy="40.5" r="2.3" fill="#fff"/>
+              </g>
             </g>
-            <g class="eye">
-              <ellipse cx="60" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
-              <ellipse cx="60" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
-              <circle cx="61.6" cy="40.5" r="2.3" fill="#fff"/>
+            <g class="he" fill="none" stroke="#3a2b46" stroke-width="3.4" stroke-linecap="round">
+              <path d="M33 50 Q40 42 47 50"/>
+              <path d="M53 50 Q60 42 67 50"/>
             </g>
-          </g>
-          <g class="he" fill="none" stroke="#3a2b46" stroke-width="3.4" stroke-linecap="round">
-            <path d="M33 50 Q40 42 47 50"/>
-            <path d="M53 50 Q60 42 67 50"/>
-          </g>
-          <path d="M45 64 Q50 69 55 64" fill="none" stroke="#3a2b46" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+            <path d="M45 64 Q50 69 55 64" fill="none" stroke="#3a2b46" stroke-width="2" stroke-linecap="round" opacity=".7"/>
           </g>
         </g>
 
