@@ -24,12 +24,4 @@ Hi, Welcome to my little corner!
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/cofldus/cofldus/output/github-snake.svg" />
 </picture>
 
-<!--
-  🎵 Spotify "지금 듣는 곡" 위젯
-  1) https://spotify-github-profile.kittinanx.com/api/login 접속 → Spotify 로그인/허용
-  2) 화면에 나오는 마크다운 스니펫(uid 포함)을 아래 주석 대신 붙여넣기
-  예시:
-  <a href="https://open.spotify.com/user/UID"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=UID&cover_image=true&theme=novatorem&show_offline=false&background_color=ff8fc0&interchange=false" /></a>
--->
-
 </div>
