@@ -4,6 +4,8 @@
 
 Hi, Welcome to my little corner!
 
+<img src="https://raw.githubusercontent.com/cofldus/cofldus/main/assets/puffwalk.svg" alt="a pink puffball walking" width="320" />
+
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/chaeyeon-lee-113698274"><img src="https://img.shields.io/badge/LinkedIn-E5A9C3?style=flat-square&logo=linkedin&logoColor=white" /></a>

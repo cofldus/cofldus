@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120" role="img" aria-label="a pink puffball walking">
+  <style>
+    .pw-mover{animation:pw-move 9s ease-in-out infinite}
+    .pw-flip{transform-box:fill-box;transform-origin:50% 50%;animation:pw-face 9s steps(1,end) infinite}
+    .pw-body{transform-box:fill-box;transform-origin:50% 100%;animation:pw-bob 1.05s ease-in-out infinite}
+    .pw-foot-l{transform-box:fill-box;transform-origin:50% 25%;animation:pw-paddle .7s linear infinite}
+    .pw-foot-r{transform-box:fill-box;transform-origin:50% 25%;animation:pw-paddle .7s linear infinite .35s}
+    .pw-arm-l{transform-box:fill-box;transform-origin:70% 20%;animation:pw-arm 1.05s ease-in-out infinite}
+    .pw-arm-r{transform-box:fill-box;transform-origin:30% 20%;animation:pw-arm 1.05s ease-in-out infinite .52s}
+    .pw-eye{transform-box:fill-box;transform-origin:50% 50%;animation:pw-blink 3.4s ease-in-out infinite}
+    .pw-shadow{transform-box:fill-box;transform-origin:50% 50%;animation:pw-shadow 1.05s ease-in-out infinite}
+
+    @keyframes pw-move{0%{transform:translateX(0)}50%{transform:translateX(200px)}100%{transform:translateX(0)}}
+    @keyframes pw-face{0%{transform:scaleX(1)}50%{transform:scaleX(-1)}100%{transform:scaleX(1)}}
+    @keyframes pw-bob{0%{transform:translateY(0)}20%{transform:translateY(-4%)}50%{transform:translateY(-9%)}80%{transform:translateY(-4%)}100%{transform:translateY(0)}}
+    @keyframes pw-paddle{0%{transform:translateY(0) rotate(0)}20%{transform:translateY(-18%) rotate(-10deg)}40%{transform:translateY(-26%) rotate(-3deg)}60%{transform:translateY(-16%) rotate(6deg)}80%{transform:translateY(-6%) rotate(3deg)}100%{transform:translateY(0) rotate(0)}}
+    @keyframes pw-arm{0%{transform:rotate(8deg)}25%{transform:rotate(-4deg)}50%{transform:rotate(-16deg)}75%{transform:rotate(-4deg)}100%{transform:rotate(8deg)}}
+    @keyframes pw-blink{0%,90%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+    @keyframes pw-shadow{0%,100%{transform:scale(1)}50%{transform:scale(.8)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+
+  <g class="pw-mover">
+    <g class="pw-flip">
+      <g transform="translate(10,14) scale(0.86)">
+        <ellipse class="pw-shadow" cx="50" cy="99" rx="30" ry="5" fill="rgba(120,70,90,.16)"/>
+        <g class="pw-body">
+          <ellipse class="pw-arm-l" cx="12" cy="60" rx="8" ry="11" fill="#efa0bb"/>
+          <ellipse class="pw-arm-r" cx="88" cy="60" rx="8" ry="11" fill="#efa0bb"/>
+          <ellipse class="pw-foot-l" cx="34" cy="90" rx="13" ry="8" fill="#d1587a"/>
+          <ellipse class="pw-foot-r" cx="66" cy="90" rx="13" ry="8" fill="#d1587a"/>
+          <circle cx="50" cy="52" r="40" fill="#f4a6c0"/>
+          <ellipse cx="50" cy="66" rx="26" ry="20" fill="#fbd0e0" opacity=".55"/>
+          <ellipse cx="28" cy="60" rx="8" ry="5" fill="#f27ba6" opacity=".8"/>
+          <ellipse cx="72" cy="60" rx="8" ry="5" fill="#f27ba6" opacity=".8"/>
+          <g class="pw-eye">
+            <ellipse cx="40" cy="46" rx="5" ry="11" fill="#3a2b46"/>
+            <ellipse cx="40" cy="52" rx="3.4" ry="5" fill="#8fb7e8"/>
+            <circle cx="41.5" cy="41" r="2.1" fill="#fff"/>
+          </g>
+          <g class="pw-eye">
+            <ellipse cx="60" cy="46" rx="5" ry="11" fill="#3a2b46"/>
+            <ellipse cx="60" cy="52" rx="3.4" ry="5" fill="#8fb7e8"/>
+            <circle cx="61.5" cy="41" r="2.1" fill="#fff"/>
+          </g>
+          <path d="M46 64 Q50 68 54 64" fill="none" stroke="#3a2b46" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
