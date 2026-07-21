@@ -2,7 +2,7 @@
 
 # 이채연 · Chaeyeon Lee
 
-Hi, welcome to my little corner ✿
+Hi, welcome to my little corner 🌸
 
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
