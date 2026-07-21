@@ -1,51 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120" role="img" aria-label="a pink puffball walking">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100" role="img" aria-label="a tiny pink puffball bouncing and changing costumes">
   <style>
-    .pw-mover{animation:pw-move 9s ease-in-out infinite}
-    .pw-flip{transform-box:fill-box;transform-origin:50% 50%;animation:pw-face 9s steps(1,end) infinite}
-    .pw-body{transform-box:fill-box;transform-origin:50% 100%;animation:pw-bob 1.05s ease-in-out infinite}
-    .pw-foot-l{transform-box:fill-box;transform-origin:50% 25%;animation:pw-paddle .7s linear infinite}
-    .pw-foot-r{transform-box:fill-box;transform-origin:50% 25%;animation:pw-paddle .7s linear infinite .35s}
-    .pw-arm-l{transform-box:fill-box;transform-origin:70% 20%;animation:pw-arm 1.05s ease-in-out infinite}
-    .pw-arm-r{transform-box:fill-box;transform-origin:30% 20%;animation:pw-arm 1.05s ease-in-out infinite .52s}
-    .pw-eye{transform-box:fill-box;transform-origin:50% 50%;animation:pw-blink 3.4s ease-in-out infinite}
-    .pw-shadow{transform-box:fill-box;transform-origin:50% 50%;animation:pw-shadow 1.05s ease-in-out infinite}
+    .pw-mover{animation:pw-move 7s ease-in-out infinite}
+    .pw-flip{transform-box:fill-box;transform-origin:50% 50%;animation:pw-face 7s steps(1,end) infinite}
+    .pw-poof{transform-box:fill-box;transform-origin:50% 62%;animation:pw-poof 15s ease-in-out infinite}
+    .pw-hop{transform-box:fill-box;transform-origin:50% 100%;animation:pw-hop .52s cubic-bezier(.3,.7,.4,1) infinite}
+    .pw-body{transform-box:fill-box;transform-origin:50% 100%;animation:pw-squash .52s ease-in-out infinite}
+    .pw-core{animation:pw-tint 15s ease-in-out infinite}
+    .pw-arm-l{transform-box:fill-box;transform-origin:70% 20%;animation:pw-armhop .52s ease-in-out infinite}
+    .pw-arm-r{transform-box:fill-box;transform-origin:30% 20%;animation:pw-armhop .52s ease-in-out infinite}
+    .pw-foot-l,.pw-foot-r{transform-box:fill-box;transform-origin:50% 25%;animation:pw-tuck .52s ease-in-out infinite}
+    .pw-eye{transform-box:fill-box;transform-origin:50% 50%;animation:pw-blink 3s ease-in-out infinite}
+    .pw-shadow{transform-box:fill-box;transform-origin:50% 50%;animation:pw-shadow .52s cubic-bezier(.3,.7,.4,1) infinite}
+    .h0{animation:s0 15s ease-in-out infinite}
+    .h1{animation:s1 15s ease-in-out infinite}
+    .h2{animation:s2 15s ease-in-out infinite}
+    .h3{animation:s3 15s ease-in-out infinite}
+    .h4{animation:s4 15s ease-in-out infinite}
+    .h5{animation:s5 15s ease-in-out infinite}
+    .pw-spark{transform-box:fill-box;transform-origin:50% 50%;animation:pw-sparkring 15s ease-in-out infinite}
 
-    @keyframes pw-move{0%{transform:translateX(0)}50%{transform:translateX(200px)}100%{transform:translateX(0)}}
+    @keyframes pw-move{0%{transform:translateX(0)}50%{transform:translateX(160px)}100%{transform:translateX(0)}}
     @keyframes pw-face{0%{transform:scaleX(1)}50%{transform:scaleX(-1)}100%{transform:scaleX(1)}}
-    @keyframes pw-bob{0%{transform:translateY(0)}20%{transform:translateY(-4%)}50%{transform:translateY(-9%)}80%{transform:translateY(-4%)}100%{transform:translateY(0)}}
-    @keyframes pw-paddle{0%{transform:translateY(0) rotate(0)}20%{transform:translateY(-18%) rotate(-10deg)}40%{transform:translateY(-26%) rotate(-3deg)}60%{transform:translateY(-16%) rotate(6deg)}80%{transform:translateY(-6%) rotate(3deg)}100%{transform:translateY(0) rotate(0)}}
-    @keyframes pw-arm{0%{transform:rotate(8deg)}25%{transform:rotate(-4deg)}50%{transform:rotate(-16deg)}75%{transform:rotate(-4deg)}100%{transform:rotate(8deg)}}
+    @keyframes pw-hop{0%,100%{transform:translateY(0)}42%{transform:translateY(-58%)}}
+    @keyframes pw-squash{0%{transform:scaleX(1.16) scaleY(.84)}18%{transform:scaleX(.9) scaleY(1.12)}42%{transform:scaleX(1) scaleY(1)}72%{transform:scaleX(.95) scaleY(1.05)}100%{transform:scaleX(1.16) scaleY(.84)}}
+    @keyframes pw-armhop{0%,100%{transform:rotate(6deg)}42%{transform:rotate(-34deg)}}
+    @keyframes pw-tuck{0%,100%{transform:translateY(0)}42%{transform:translateY(-30%)}}
     @keyframes pw-blink{0%,90%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
-    @keyframes pw-shadow{0%,100%{transform:scale(1)}50%{transform:scale(.8)}}
+    @keyframes pw-shadow{0%,100%{transform:scale(1)}42%{transform:scale(.62)}}
+    @keyframes pw-tint{0%,14%{fill:#f4a6c0}16.7%,31%{fill:#f79aa6}33.3%,48%{fill:#aec6f2}50%,98%{fill:#f4a6c0}100%{fill:#f4a6c0}}
+    @keyframes pw-poof{0%{transform:scale(1)}2%{transform:scale(1.18)}5%{transform:scale(1)}
+      15.7%{transform:scale(1)}17.7%{transform:scale(1.18)}20%{transform:scale(1)}
+      32.3%{transform:scale(1)}34.3%{transform:scale(1.18)}36.6%{transform:scale(1)}
+      49%{transform:scale(1)}51%{transform:scale(1.18)}53.3%{transform:scale(1)}
+      65.7%{transform:scale(1)}67.7%{transform:scale(1.18)}70%{transform:scale(1)}
+      82.3%{transform:scale(1)}84.3%{transform:scale(1.18)}86.6%{transform:scale(1)}100%{transform:scale(1)}}
+    @keyframes s0{0%{opacity:1}14%{opacity:1}16%{opacity:0}99%{opacity:0}100%{opacity:1}}
+    @keyframes s1{0%,15.5%{opacity:0}17.5%,31.5%{opacity:1}33.5%,100%{opacity:0}}
+    @keyframes s2{0%,32.3%{opacity:0}34.3%,48.3%{opacity:1}50.3%,100%{opacity:0}}
+    @keyframes s3{0%,49%{opacity:0}51%,65%{opacity:1}67%,100%{opacity:0}}
+    @keyframes s4{0%,65.7%{opacity:0}67.7%,81.7%{opacity:1}83.7%,100%{opacity:0}}
+    @keyframes s5{0%,82.3%{opacity:0}84.3%,99%{opacity:1}100%{opacity:0}}
+    @keyframes pw-sparkring{
+      0%,2%,15.7%,17.7%,32.3%,34.3%,49%,51%,65.7%,67.7%,82.3%,84.3%{opacity:0;transform:scale(.4)}
+      3.5%,19%,35.6%,52.3%,69%,85.6%{opacity:.85}
+      6%,21.5%,38%,54.8%,71.5%,88%{opacity:0;transform:scale(1.5)}100%{opacity:0}}
     @media (prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
 
-  <g class="pw-mover">
-    <g class="pw-flip">
-      <g transform="translate(10,14) scale(0.86)">
-        <ellipse class="pw-shadow" cx="50" cy="99" rx="30" ry="5" fill="rgba(120,70,90,.16)"/>
-        <g class="pw-body">
-          <ellipse class="pw-arm-l" cx="12" cy="60" rx="8" ry="11" fill="#efa0bb"/>
-          <ellipse class="pw-arm-r" cx="88" cy="60" rx="8" ry="11" fill="#efa0bb"/>
-          <ellipse class="pw-foot-l" cx="34" cy="90" rx="13" ry="8" fill="#d1587a"/>
-          <ellipse class="pw-foot-r" cx="66" cy="90" rx="13" ry="8" fill="#d1587a"/>
-          <circle cx="50" cy="52" r="40" fill="#f4a6c0"/>
-          <ellipse cx="50" cy="66" rx="26" ry="20" fill="#fbd0e0" opacity=".55"/>
-          <ellipse cx="28" cy="60" rx="8" ry="5" fill="#f27ba6" opacity=".8"/>
-          <ellipse cx="72" cy="60" rx="8" ry="5" fill="#f27ba6" opacity=".8"/>
-          <g class="pw-eye">
-            <ellipse cx="40" cy="46" rx="5" ry="11" fill="#3a2b46"/>
-            <ellipse cx="40" cy="52" rx="3.4" ry="5" fill="#8fb7e8"/>
-            <circle cx="41.5" cy="41" r="2.1" fill="#fff"/>
-          </g>
-          <g class="pw-eye">
-            <ellipse cx="60" cy="46" rx="5" ry="11" fill="#3a2b46"/>
-            <ellipse cx="60" cy="52" rx="3.4" ry="5" fill="#8fb7e8"/>
-            <circle cx="61.5" cy="41" r="2.1" fill="#fff"/>
-          </g>
-          <path d="M46 64 Q50 68 54 64" fill="none" stroke="#3a2b46" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <g class="pw-mover"><g class="pw-flip"><g class="pw-poof">
+    <g transform="translate(6,32) scale(0.58)">
+      <ellipse class="pw-shadow" cx="50" cy="99" rx="28" ry="4.5" fill="rgba(120,70,90,.16)"/>
+      <g class="pw-hop"><g class="pw-body">
+        <ellipse class="pw-arm-l" cx="12" cy="60" rx="8" ry="11" fill="#efa0bb"/>
+        <ellipse class="pw-arm-r" cx="88" cy="60" rx="8" ry="11" fill="#efa0bb"/>
+        <ellipse class="pw-foot-l" cx="36" cy="90" rx="12" ry="8" fill="#d1587a"/>
+        <ellipse class="pw-foot-r" cx="64" cy="90" rx="12" ry="8" fill="#d1587a"/>
+        <circle class="pw-core" cx="50" cy="52" r="40" fill="#f4a6c0"/>
+        <ellipse cx="50" cy="66" rx="26" ry="20" fill="#fff" opacity=".26"/>
+        <ellipse cx="26" cy="60" rx="9" ry="5.5" fill="#f27ba6" opacity=".85"/>
+        <ellipse cx="74" cy="60" rx="9" ry="5.5" fill="#f27ba6" opacity=".85"/>
+        <g class="pw-eye">
+          <ellipse cx="40" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
+          <ellipse cx="40" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
+          <circle cx="41.6" cy="40.5" r="2.3" fill="#fff"/>
         </g>
+        <g class="pw-eye">
+          <ellipse cx="60" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
+          <ellipse cx="60" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
+          <circle cx="61.6" cy="40.5" r="2.3" fill="#fff"/>
+        </g>
+        <path d="M45 64 Q50 69 55 64" fill="none" stroke="#3a2b46" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+        <!-- 0: Sword — green pointed cap -->
+        <g class="h0">
+          <path d="M30 13 Q50 19 70 13 L68 9 Q50 14 32 9 Z" fill="#3f9b46"/>
+          <path d="M37 12 L64 12 L57 -14 Z" fill="#5cc85f"/>
+          <circle cx="57" cy="-14" r="3.4" fill="#fff"/>
+        </g>
+        <!-- 1: Fire — flame crown -->
+        <g class="h1">
+          <path d="M32 13 Q37 -8 44 7 Q48 -16 52 7 Q59 -8 66 13 Q49 19 32 13 Z" fill="#ff8a4c"/>
+          <path d="M40 12 Q44 -2 49 8 Q53 -4 57 12 Q49 16 40 12 Z" fill="#ffd36b"/>
+        </g>
+        <!-- 2: Ice — frosty crown + snowflake -->
+        <g class="h2">
+          <path d="M31 14 Q33 1 41 7 Q45 -6 50 7 Q55 -6 59 7 Q67 1 69 14 Q50 19 31 14 Z" fill="#c7e2ff" stroke="#93c1f2" stroke-width="1.4"/>
+          <g stroke="#9cc7f5" stroke-width="1.6" stroke-linecap="round"><line x1="50" y1="-5" x2="50" y2="5"/><line x1="45" y1="-2" x2="55" y2="2"/><line x1="55" y1="-2" x2="45" y2="2"/></g>
+        </g>
+        <!-- 3: Spark — lightning bolt -->
+        <g class="h3">
+          <path d="M30 13 Q50 18 70 13 L68 9 Q50 13 32 9 Z" fill="#f0b400"/>
+          <path d="M54 -16 L41 5 L50 5 L44 18 L64 -3 L54 -3 Z" fill="#ffd93b" stroke="#f0b400" stroke-width="1.2" stroke-linejoin="round"/>
+        </g>
+        <!-- 4: Sleep — nightcap + Zzz -->
+        <g class="h4">
+          <path d="M30 15 Q36 -8 62 -6 Q84 -4 74 9 Q58 4 50 15 Q40 17 30 15 Z" fill="#f6b3cf"/>
+          <path d="M29 15 Q50 21 60 12 L58 8 Q42 14 31 10 Z" fill="#fff" opacity=".9"/>
+          <circle cx="77" cy="7" r="5" fill="#fff"/>
+          <text x="70" y="-8" font-family="ui-rounded,system-ui,sans-serif" font-size="13" font-weight="700" fill="#c77ea0">z</text>
+        </g>
+        <!-- 5: Cook — chef toque -->
+        <g class="h5">
+          <rect x="34" y="7" width="32" height="9" rx="3" fill="#fff" stroke="#e6dae0" stroke-width="1"/>
+          <path d="M37 9 Q29 -9 44 -3 Q48 -14 56 -3 Q71 -9 63 9 Z" fill="#fff" stroke="#e6dae0" stroke-width="1"/>
+        </g>
+      </g></g>
+      <g class="pw-spark" fill="none" stroke="#fff3fa" stroke-width="3" stroke-linecap="round">
+        <circle cx="50" cy="44" r="48" opacity=".9"/>
       </g>
     </g>
-  </g>
+  </g></g></g>
 </svg>

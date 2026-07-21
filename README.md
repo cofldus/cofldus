@@ -4,8 +4,6 @@
 
 Hi, Welcome to my little corner!
 
-<img src="https://raw.githubusercontent.com/cofldus/cofldus/main/assets/puffwalk.svg" alt="a pink puffball walking" width="320" />
-
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/chaeyeon-lee-113698274"><img src="https://img.shields.io/badge/LinkedIn-E5A9C3?style=flat-square&logo=linkedin&logoColor=white" /></a>
@@ -33,5 +31,9 @@ Hi, Welcome to my little corner!
   <a href="https://github.com/cofldus/AiOnedayClass"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cofldus&repo=AiOnedayClass&title_color=cd7a9f&text_color=7a5563&icon_color=dd93b5&bg_color=fdf4f8&border_color=e9b3ce&show_owner=false" /></a>
   <a href="https://github.com/cofldus/POSCO-BigData-Car"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cofldus&repo=POSCO-BigData-Car&title_color=cd7a9f&text_color=7a5563&icon_color=dd93b5&bg_color=fdf4f8&border_color=e9b3ce&show_owner=false" /></a>
 </p>
+
+<br />
+
+<img src="https://raw.githubusercontent.com/cofldus/cofldus/main/assets/puffwalk.svg" alt="a tiny pink puffball bouncing" width="240" />
 
 </div>
