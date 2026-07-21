@@ -1,66 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100" role="img" aria-label="a tiny pink puffball playing">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 104" width="240" height="104" role="img" aria-label="a tiny pink puffball playing">
   <style>
-    .mover{animation:mv 8.5s ease-in-out infinite}
-    .spin{transform-box:fill-box;transform-origin:50% 62%;animation:sp 8.5s ease-in-out infinite}
-    .tilt{transform-box:fill-box;transform-origin:50% 100%;animation:tl 8.5s ease-in-out infinite}
-    .hop{transform-box:fill-box;transform-origin:50% 100%;animation:hp 8.5s ease-in-out infinite}
-    .arm-l{transform-box:fill-box;transform-origin:70% 20%;animation:al 1.5s ease-in-out infinite}
-    .arm-r{transform-box:fill-box;transform-origin:30% 20%;animation:al 1.5s ease-in-out infinite .4s}
-    .eye{transform-box:fill-box;transform-origin:50% 50%;animation:bk 3.2s ease-in-out infinite}
-    .shadow{transform-box:fill-box;transform-origin:50% 50%;animation:sh 8.5s ease-in-out infinite}
+    .mover{animation:mv 18s cubic-bezier(.45,.05,.35,1) infinite}
+    .tilt{transform-box:fill-box;transform-origin:50% 100%;animation:tl 18s ease-in-out infinite}
+    .hop{transform-box:fill-box;transform-origin:50% 100%;animation:hp 18s cubic-bezier(.34,.02,.3,1) infinite}
+    .spin{transform-box:fill-box;transform-origin:50% 56%;animation:sp 18s cubic-bezier(.5,.1,.3,1) infinite}
+    .face{animation:fc 18s steps(1,end) infinite}
+    .arm-l{transform-box:fill-box;transform-origin:70% 18%;animation:aL 1.7s ease-in-out infinite}
+    .arm-r{transform-box:fill-box;transform-origin:30% 18%;animation:aR 1.7s ease-in-out infinite}
+    .ne{animation:neo 18s steps(1,end) infinite}
+    .he{animation:heo 18s steps(1,end) infinite}
+    .eye{transform-box:fill-box;transform-origin:50% 50%;animation:bk 3.4s ease-in-out infinite}
+    .heart{transform-box:fill-box;transform-origin:50% 100%;animation:hrt 18s ease-in-out infinite}
+    .spk{transform-box:fill-box;transform-origin:50% 50%;animation:spk 18s ease-in-out infinite}
+    .spk2{animation-delay:.25s}
+    .spk3{animation-delay:.5s}
+    .shadow{transform-box:fill-box;transform-origin:50% 50%;animation:sh 18s ease-in-out infinite}
 
-    @keyframes mv{0%{transform:translateX(0)}18%{transform:translateX(30px)}34%{transform:translateX(30px)}52%{transform:translateX(16px)}74%{transform:translateX(0)}100%{transform:translateX(0)}}
+    @keyframes mv{0%{transform:translateX(0)}10%{transform:translateX(0)}16%{transform:translateX(30px)}22%{transform:translateX(58px)}
+      30%{transform:translateX(58px)}40%{transform:translateX(56px)}50%{transform:translateX(54px)}58%{transform:translateX(54px)}
+      64%{transform:translateX(28px)}72%{transform:translateX(0)}80%{transform:translateX(0)}90%{transform:translateX(0)}100%{transform:translateX(0)}}
+
     @keyframes hp{
-      0%{transform:translateY(0) scale(1.12,.88)}
-      5%{transform:translateY(-30%) scale(.96,1.08)}
-      9%{transform:translateY(-52%) scale(1,1.02)}
-      13%{transform:translateY(-24%) scale(1,1)}
-      17%{transform:translateY(0) scale(1.12,.88)}
-      22%{transform:translateY(-30%) scale(.96,1.08)}
-      26%{transform:translateY(-52%) scale(1,1.02)}
-      30%{transform:translateY(-24%) scale(1,1)}
-      34%{transform:translateY(0) scale(1.1,.9)}
-      37%{transform:translateY(0) scale(1,1)}
-      71%{transform:translateY(0) scale(1,1)}
-      75%{transform:translateY(-46%) scale(.97,1.06)}
-      79%{transform:translateY(0) scale(1.1,.9)}
-      83%{transform:translateY(-40%) scale(.98,1.05)}
-      87%{transform:translateY(0) scale(1.12,.88)}
-      91%{transform:translateY(0) scale(1,1)}
-      100%{transform:translateY(0) scale(1.12,.88)}}
-    @keyframes sp{0%,50%{transform:rotate(0)}59%{transform:rotate(360deg)}59.01%,100%{transform:rotate(0)}}
-    @keyframes tl{0%,37%{transform:rotate(0)}41%{transform:rotate(-7deg)}47%{transform:rotate(6deg)}51%{transform:rotate(0)}62%{transform:rotate(0)}66%{transform:rotate(5deg)}70%{transform:rotate(-3deg)}72%,100%{transform:rotate(0)}}
-    @keyframes al{0%,100%{transform:rotate(8deg)}50%{transform:rotate(-12deg)}}
-    @keyframes bk{0%,42%,100%{transform:scaleY(1)}45%{transform:scaleY(.1)}47%{transform:scaleY(1)}}
-    @keyframes sh{0%{transform:scale(1)}9%{transform:scale(.62)}17%{transform:scale(1)}26%{transform:scale(.62)}34%{transform:scale(1)}
-      71%{transform:scale(1)}75%{transform:scale(.66)}79%{transform:scale(1)}83%{transform:scale(.68)}87%{transform:scale(1)}100%{transform:scale(1)}}
+      0%{transform:translateY(0) scale(1,1)}
+      5%{transform:translateY(-3%) scale(.99,1.01)}
+      10%{transform:translateY(0) scale(1.12,.88)}
+      13%{transform:translateY(-34%) scale(.94,1.1)}
+      16%{transform:translateY(-52%) scale(1.04,1.04)}
+      19%{transform:translateY(-18%) scale(1,1)}
+      22%{transform:translateY(0) scale(1.15,.85)}
+      23.5%{transform:translateY(0) scale(.98,1.03)}
+      25%{transform:translateY(0) scale(1,1)}
+      30%{transform:translateY(0) scale(1,1)}
+      33%{transform:translateY(-13%) scale(1,1)}
+      37%{transform:translateY(-13%) scale(1,1)}
+      40%{transform:translateY(0) scale(1.07,.93)}
+      41.5%{transform:translateY(0) scale(1,1)}
+      50%{transform:translateY(0) scale(1,1)}
+      53%{transform:translateY(-11%) scale(.98,1.05)}
+      56%{transform:translateY(0) scale(1.09,.91)}
+      58%{transform:translateY(0) scale(1,1)}
+      61%{transform:translateY(0) scale(1.12,.88)}
+      64%{transform:translateY(-47%) scale(.95,1.07)}
+      67%{transform:translateY(0) scale(1.14,.86)}
+      69%{transform:translateY(-40%) scale(.97,1.05)}
+      72%{transform:translateY(0) scale(1.13,.87)}
+      73.5%{transform:translateY(0) scale(1,1)}
+      80%{transform:translateY(0) scale(1,1)}
+      82.5%{transform:translateY(-22%) scale(.98,1.04)}
+      84.5%{transform:translateY(0) scale(1.1,.9)}
+      86.5%{transform:translateY(-22%) scale(.98,1.04)}
+      88.5%{transform:translateY(0) scale(1.1,.9)}
+      90%{transform:translateY(0) scale(1,1)}
+      94%{transform:translateY(-7%) scale(.88,1.16)}
+      97%{transform:translateY(0) scale(1.09,.91)}
+      100%{transform:translateY(0) scale(1,1)}}
+
+    @keyframes sp{0%,32%{transform:scaleX(1)}33.5%{transform:scaleX(.12)}35%{transform:scaleX(-1)}36.5%{transform:scaleX(-.12)}38%{transform:scaleX(1)}
+      40%,74%{transform:rotate(0)}77%{transform:rotate(184deg)}80%{transform:rotate(360deg)}80.01%,100%{transform:rotate(0)}}
+    @keyframes fc{0%,32%{opacity:1}33.5%{opacity:0}36.5%{opacity:0}38%{opacity:1}100%{opacity:1}}
+
+    @keyframes tl{0%,25%{transform:rotate(0)}
+      26.5%{transform:rotate(-9deg)}28%{transform:rotate(8deg)}29.5%{transform:rotate(-4deg)}30%{transform:rotate(0)}
+      42%{transform:rotate(7deg)}46%{transform:rotate(-7deg)}50%{transform:rotate(0)}
+      60%{transform:rotate(-5deg)}61%{transform:rotate(0)}100%{transform:rotate(0)}}
+
+    @keyframes aL{0%,100%{transform:rotate(7deg)}50%{transform:rotate(-13deg)}}
+    @keyframes aR{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(13deg)}}
+
+    @keyframes neo{0%{opacity:1}30%{opacity:1}31%{opacity:0}40%{opacity:0}41%{opacity:1}
+      50%{opacity:1}51%{opacity:0}58%{opacity:0}59%{opacity:1}74%{opacity:1}75%{opacity:0}80%{opacity:0}81%{opacity:1}100%{opacity:1}}
+    @keyframes heo{0%{opacity:0}30%{opacity:0}31%{opacity:1}40%{opacity:1}41%{opacity:0}
+      50%{opacity:0}51%{opacity:1}58%{opacity:1}59%{opacity:0}74%{opacity:0}75%{opacity:1}80%{opacity:1}81%{opacity:0}100%{opacity:0}}
+    @keyframes bk{0%,40%,100%{transform:scaleY(1)}43%{transform:scaleY(.1)}45%{transform:scaleY(1)}}
+
+    @keyframes hrt{0%,49%{opacity:0;transform:translateY(0) scale(.6)}
+      51%{opacity:.95;transform:translateY(-4px) scale(1)}
+      55%{opacity:.9;transform:translateY(-20px) scale(1.05)}
+      58%{opacity:0;transform:translateY(-34px) scale(1.1)}100%{opacity:0;transform:translateY(-34px) scale(1)}}
+
+    @keyframes spk{0%,29%{opacity:0;transform:scale(.3)}
+      32%{opacity:.9;transform:scale(1)}35%{opacity:.4;transform:scale(.7)}38%{opacity:.9;transform:scale(1.1)}40%{opacity:0;transform:scale(.4)}
+      74%{opacity:0;transform:scale(.3)}77%{opacity:.9;transform:scale(1)}80%{opacity:0;transform:scale(1.2)}100%{opacity:0}}
+
+    @keyframes sh{0%{transform:scale(1)}5%{transform:scale(.96)}10%{transform:scale(1)}16%{transform:scale(.6)}22%{transform:scale(1.04)}25%{transform:scale(1)}
+      33%{transform:scale(.82)}37%{transform:scale(.82)}40%{transform:scale(1)}
+      53%{transform:scale(.9)}56%{transform:scale(1.03)}58%{transform:scale(1)}
+      64%{transform:scale(.6)}69%{transform:scale(.66)}72%{transform:scale(1.03)}73.5%{transform:scale(1)}
+      82.5%{transform:scale(.76)}86.5%{transform:scale(.76)}88.5%{transform:scale(1.02)}94%{transform:scale(.9)}100%{transform:scale(1)}}
+
     @media (prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
 
   <g class="mover">
-    <g transform="translate(6,32) scale(0.58)">
+    <g transform="translate(6,34) scale(0.58)">
       <ellipse class="shadow" cx="50" cy="99" rx="28" ry="4.5" fill="rgba(120,70,90,.16)"/>
-      <g class="tilt"><g class="hop"><g class="spin">
-        <ellipse class="arm-l" cx="12" cy="60" rx="8" ry="11" fill="#efa0bb"/>
-        <ellipse class="arm-r" cx="88" cy="60" rx="8" ry="11" fill="#efa0bb"/>
-        <ellipse cx="36" cy="90" rx="12" ry="8" fill="#d1587a"/>
-        <ellipse cx="64" cy="90" rx="12" ry="8" fill="#d1587a"/>
-        <circle cx="50" cy="52" r="40" fill="#f4a6c0"/>
-        <ellipse cx="50" cy="66" rx="26" ry="20" fill="#fff" opacity=".26"/>
-        <ellipse cx="26" cy="60" rx="9" ry="5.5" fill="#f27ba6" opacity=".85"/>
-        <ellipse cx="74" cy="60" rx="9" ry="5.5" fill="#f27ba6" opacity=".85"/>
-        <g class="eye">
-          <ellipse cx="40" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
-          <ellipse cx="40" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
-          <circle cx="41.6" cy="40.5" r="2.3" fill="#fff"/>
+      <g class="tilt"><g class="hop">
+        <g class="spin">
+          <ellipse class="arm-l" cx="12" cy="60" rx="8" ry="11" fill="#efa0bb"/>
+          <ellipse class="arm-r" cx="88" cy="60" rx="8" ry="11" fill="#efa0bb"/>
+          <ellipse cx="36" cy="90" rx="12" ry="8" fill="#d1587a"/>
+          <ellipse cx="64" cy="90" rx="12" ry="8" fill="#d1587a"/>
+          <circle cx="50" cy="52" r="40" fill="#f4a6c0"/>
+          <ellipse cx="50" cy="66" rx="26" ry="20" fill="#fff" opacity=".26"/>
+          <g class="face">
+          <ellipse cx="26" cy="60" rx="9" ry="5.5" fill="#f27ba6" opacity=".85"/>
+          <ellipse cx="74" cy="60" rx="9" ry="5.5" fill="#f27ba6" opacity=".85"/>
+          <g class="ne">
+            <g class="eye">
+              <ellipse cx="40" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
+              <ellipse cx="40" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
+              <circle cx="41.6" cy="40.5" r="2.3" fill="#fff"/>
+            </g>
+            <g class="eye">
+              <ellipse cx="60" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
+              <ellipse cx="60" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
+              <circle cx="61.6" cy="40.5" r="2.3" fill="#fff"/>
+            </g>
+          </g>
+          <g class="he" fill="none" stroke="#3a2b46" stroke-width="3.4" stroke-linecap="round">
+            <path d="M33 50 Q40 42 47 50"/>
+            <path d="M53 50 Q60 42 67 50"/>
+          </g>
+          <path d="M45 64 Q50 69 55 64" fill="none" stroke="#3a2b46" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+          </g>
         </g>
-        <g class="eye">
-          <ellipse cx="60" cy="46" rx="5.2" ry="11.5" fill="#3a2b46"/>
-          <ellipse cx="60" cy="52" rx="3.6" ry="5.2" fill="#8fb7e8"/>
-          <circle cx="61.6" cy="40.5" r="2.3" fill="#fff"/>
+
+        <g class="heart">
+          <path d="M50 6 C47 1 40 1 40 7 C40 12 50 17 50 17 C50 17 60 12 60 7 C60 1 53 1 50 6 Z" fill="#ff90b3"/>
         </g>
-        <path d="M45 64 Q50 69 55 64" fill="none" stroke="#3a2b46" stroke-width="2" stroke-linecap="round" opacity=".7"/>
-      </g></g></g>
+        <g fill="#ffe27a">
+          <path class="spk spk1" d="M18 24 l1.6 3.4 3.4 1.6 -3.4 1.6 -1.6 3.4 -1.6 -3.4 -3.4 -1.6 3.4 -1.6 Z"/>
+          <path class="spk spk2" d="M84 30 l1.3 2.8 2.8 1.3 -2.8 1.3 -1.3 2.8 -1.3 -2.8 -2.8 -1.3 2.8 -1.3 Z"/>
+          <path class="spk spk3" d="M70 14 l1.1 2.4 2.4 1.1 -2.4 1.1 -1.1 2.4 -1.1 -2.4 -2.4 -1.1 2.4 -1.1 Z"/>
+        </g>
+      </g></g>
     </g>
   </g>
 </svg>
