@@ -10,6 +10,12 @@ Hi, Welcome to my little corner!
   <a href="mailto:lcyicy1717@gmail.com"><img src="https://img.shields.io/badge/Email-FF8FC0?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
 
+<img src="https://komarev.com/ghpvc/?username=cofldus&style=flat-square&color=FF8FC0&label=Visitors" alt="visitors" />
+
+<br />
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="random dev quote" />
+
 <br />
 
 <picture>
@@ -17,5 +23,13 @@ Hi, Welcome to my little corner!
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cofldus/cofldus/output/github-snake.svg" />
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/cofldus/cofldus/output/github-snake.svg" />
 </picture>
+
+<!--
+  🎵 Spotify "지금 듣는 곡" 위젯
+  1) https://spotify-github-profile.kittinanx.com/api/login 접속 → Spotify 로그인/허용
+  2) 화면에 나오는 마크다운 스니펫(uid 포함)을 아래 주석 대신 붙여넣기
+  예시:
+  <a href="https://open.spotify.com/user/UID"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=UID&cover_image=true&theme=novatorem&show_offline=false&background_color=ff8fc0&interchange=false" /></a>
+-->
 
 </div>
