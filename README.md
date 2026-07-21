@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cofldus/cofldus/main/assets/header-dark.png" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cofldus/cofldus/main/assets/header-light.png" />
-  <img alt="이채연 · Chaeyeon Lee" src="https://raw.githubusercontent.com/cofldus/cofldus/main/assets/header-light.png" width="360" />
-</picture>
+# 이채연 · Chaeyeon Lee
 
 Hi, welcome to my little corner 🌸
 
