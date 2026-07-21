@@ -1,56 +1,17 @@
 <div align="center">
 
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="1000"
-  height="150"
-  viewBox="0 0 1000 150"
->
-  <style>
-    .title {
-      font-family: "Segoe UI", Arial, sans-serif;
-      font-size: 38px;
-      font-weight: 600;
-      fill: #c9d1d9;
-    }
+<div align="center">
 
-    .subtitle {
-      font-family: "Courier New", monospace;
-      font-size: 25px;
-      font-style: italic;
-      fill: #8b949e;
-    }
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=34&duration=3000&pause=1000&center=true&vCenter=true&width=950&height=110&lines=Welcome+to+my+little+orbit%2C;where+ideas+compile+into+constellations.+%E2%9C%A6"
+  alt="Welcome to my little orbit"
+/>
 
-    .face {
-      font-family: Arial, sans-serif;
-      font-size: 22px;
-      fill: #8b949e;
-    }
+<br>
 
-    @media (prefers-color-scheme: light) {
-      .title {
-        fill: #24292f;
-      }
+<b>‎(*˙︶˙*)و</b>
 
-      .subtitle,
-      .face {
-        fill: #57606a;
-      }
-    }
-  </style>
-
-  <text x="500" y="48" text-anchor="middle" class="title">
-    Welcome to my little orbit,
-  </text>
-
-  <text x="500" y="92" text-anchor="middle" class="subtitle">
-    where ideas compile into constellations. ✦
-  </text>
-
-  <text x="500" y="130" text-anchor="middle" class="face">
-    (*˙︶˙*)و
-  </text>
-</svg>
+</div>
   
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
