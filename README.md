@@ -18,4 +18,18 @@ Hi, Welcome to my little corner!
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/cofldus/cofldus/output/github-snake.svg" />
 </picture>
 
+<br />
+<br />
+
+### ✿ Featured Projects
+
+<p>
+  <a href="https://github.com/cofldus/finview_generative-ai-report"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cofldus&repo=finview_generative-ai-report&title_color=cd7a9f&text_color=7a5563&icon_color=dd93b5&bg_color=fdf4f8&border_color=e9b3ce&show_owner=false" /></a>
+  <a href="https://github.com/cofldus/medical_image_translation"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cofldus&repo=medical_image_translation&title_color=cd7a9f&text_color=7a5563&icon_color=dd93b5&bg_color=fdf4f8&border_color=e9b3ce&show_owner=false" /></a>
+</p>
+<p>
+  <a href="https://github.com/cofldus/AiOnedayClass"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cofldus&repo=AiOnedayClass&title_color=cd7a9f&text_color=7a5563&icon_color=dd93b5&bg_color=fdf4f8&border_color=e9b3ce&show_owner=false" /></a>
+  <a href="https://github.com/cofldus/POSCO-BigData-Car"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cofldus&repo=POSCO-BigData-Car&title_color=cd7a9f&text_color=7a5563&icon_color=dd93b5&bg_color=fdf4f8&border_color=e9b3ce&show_owner=false" /></a>
+</p>
+
 </div>
