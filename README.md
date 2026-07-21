@@ -1,6 +1,7 @@
 <div align="center">
 
-# Welcome to my little orbit, where ideas compile into constellations. ✦ ‎(*˙︶˙*)و
+# Welcome to my little orbit, 
+where ideas compile into constellations. ✦ ‎(*˙︶˙*)و
 
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
