@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: cofldus
           outputs: |
-            dist/github-snake.svg?color_snake=%23ff4f9e&color_dots=%23ffe3f0,%23ffb3d9,%23ff8fc0,%23f25ca2,%23c1266f
-            dist/github-snake-dark.svg?color_snake=%23ff7fbf&color_dots=%232a1620,%236e2a4f,%23c94f92,%23ff8fc0,%23ffd0e6
+            dist/github-snake.svg?color_snake=%23d98fb4&color_dots=%23fbeef5,%23f3d3e4,%23e9b3ce,%23dd93b5,%23cd7a9f
+            dist/github-snake-dark.svg?color_snake=%23e3a6c4&color_dots=%23211a1e,%2343303a,%236f5060,%23a67e91,%23dcb6cb
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
