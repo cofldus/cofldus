@@ -18,8 +18,4 @@ Hi, Welcome to my little corner!
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/cofldus/cofldus/output/github-snake.svg" />
 </picture>
 
-<br />
-
-<img src="https://raw.githubusercontent.com/cofldus/cofldus/main/assets/puffwalk.svg" alt="a tiny pink puffball" width="240" />
-
 </div>
