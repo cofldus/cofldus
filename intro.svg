@@ -1,66 +1,119 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
   width="1000"
-  height="150"
-  viewBox="0 0 1000 150"
+  height="190"
+  viewBox="0 0 1000 190"
+  fill="none"
 >
+  <defs>
+    <linearGradient id="titleGrad" gradientUnits="userSpaceOnUse" x1="280" y1="0" x2="720" y2="0">
+      <stop offset="0" stop-color="#E5A9C3" />
+      <stop offset="0.5" stop-color="#BFA6E5" />
+      <stop offset="1" stop-color="#A9C8E5" />
+      <animate attributeName="x1" values="280;480;280" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="720;920;720" dur="9s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <linearGradient id="ruleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#E5A9C3" stop-opacity="0" />
+      <stop offset="0.5"  stop-color="#BFA6E5" stop-opacity="0.9" />
+      <stop offset="1"    stop-color="#A9C8E5" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#E5A9C3" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#E5A9C3" stop-opacity="0" />
+    </radialGradient>
+
+    <path id="moonPath" d="M 395 156 a 105 18 0 1 0 210 0 a 105 18 0 1 0 -210 0" />
+  </defs>
+
   <style>
     .title {
-      font-family: "Segoe UI", Arial, sans-serif;
-      font-size: 38px;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 40px;
       font-weight: 600;
-      fill: #24292f;
+      letter-spacing: 0.5px;
+      fill: url(#titleGrad);
     }
 
     .subtitle {
       font-family: "Courier New", monospace;
-      font-size: 25px;
+      font-size: 21px;
       font-style: italic;
       fill: #57606a;
     }
 
     .face {
       font-family: Arial, sans-serif;
-      font-size: 22px;
+      font-size: 21px;
       fill: #57606a;
     }
 
-    @media (prefers-color-scheme: dark) {
-      .title {
-        fill: #c9d1d9;
-      }
+    .halo {
+      stroke: #BFA6E5;
+      stroke-width: 1;
+      stroke-dasharray: 1.5 6;
+      stroke-linecap: round;
+      opacity: 0.4;
+    }
 
-      .subtitle,
-      .face {
-        fill: #8b949e;
-      }
+    .star {
+      fill: #E5A9C3;
+      animation: twinkle 3.6s ease-in-out infinite;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.18; }
+      50%      { opacity: 0.95; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .star { animation: none; opacity: 0.7; }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .subtitle, .face { fill: #8b949e; }
+      .halo { opacity: 0.5; }
     }
   </style>
 
-  <text
-    x="500"
-    y="48"
-    text-anchor="middle"
-    class="title"
-  >
-    Welcome to my little orbit,
-  </text>
+  <!-- background stars, kept clear of the text block -->
+  <g>
+    <circle class="star" cx="58"  cy="42"  r="2.1" style="animation-delay: 0s" />
+    <circle class="star" cx="112" cy="78"  r="1.4" style="animation-delay: 0.6s" />
+    <circle class="star" cx="46"  cy="126" r="1.7" style="animation-delay: 1.3s" />
+    <circle class="star" cx="140" cy="152" r="1.2" style="animation-delay: 2.1s" />
+    <circle class="star" cx="168" cy="34"  r="1.3" style="animation-delay: 2.8s" />
+    <circle class="star" cx="942" cy="46"  r="2.1" style="animation-delay: 0.3s" />
+    <circle class="star" cx="888" cy="84"  r="1.4" style="animation-delay: 1.0s" />
+    <circle class="star" cx="954" cy="130" r="1.7" style="animation-delay: 1.7s" />
+    <circle class="star" cx="860" cy="154" r="1.2" style="animation-delay: 2.4s" />
+    <circle class="star" cx="832" cy="30"  r="1.3" style="animation-delay: 3.0s" />
+    <circle class="star" cx="286" cy="20"  r="1.3" style="animation-delay: 1.5s" />
+    <circle class="star" cx="452" cy="14"  r="1.1" style="animation-delay: 2.6s" />
+    <circle class="star" cx="648" cy="22"  r="1.5" style="animation-delay: 0.8s" />
+    <circle class="star" cx="742" cy="12"  r="1.1" style="animation-delay: 2.0s" />
+  </g>
 
-  <text
-    x="500"
-    y="92"
-    text-anchor="middle"
-    class="subtitle"
-  >
-    where ideas compile into constellations. ✦
-  </text>
+  <text x="500" y="72" text-anchor="middle" class="title">Welcome to my little orbit,</text>
 
-  <text
-    x="500"
-    y="130"
-    text-anchor="middle"
-    class="face"
-  >
-    (*˙︶˙*)و
-  </text>
+  <rect class="rule" x="300" y="90" width="400" height="1.6" rx="0.8" fill="url(#ruleGrad)" />
+
+  <text x="500" y="122" text-anchor="middle" class="subtitle">where ideas compile into constellations. ✦</text>
+
+  <!-- a small orbit around the face, with one moon on it -->
+  <ellipse class="halo" cx="500" cy="156" rx="105" ry="18" />
+  <text x="500" y="163" text-anchor="middle" class="face">(*˙︶˙*)و</text>
+  <!-- opacity starts at 0 so that, if SMIL is unavailable, the moon stays
+       hidden instead of parking itself at the top-left corner -->
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="0s" fill="freeze" />
+    <circle r="9" fill="url(#moonGlow)" />
+    <circle r="2.8" fill="#E5A9C3" />
+    <animateMotion dur="12s" repeatCount="indefinite">
+      <mpath href="#moonPath" xlink:href="#moonPath" />
+    </animateMotion>
+  </g>
 </svg>
