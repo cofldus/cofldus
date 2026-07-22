@@ -1,23 +1,16 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="1000" height="112" viewBox="0 0 1000 112" fill="none"
+  width="1000" height="104" viewBox="0 0 1000 104" fill="none"
 >
   <style>
-    /* Inter (SIL Open Font License 1.1) - 두 줄에 쓰인 글자만 남긴 서브셋 한 벌.
-       img로 불러오는 SVG는 외부 폰트를 못 받으므로 data URI로 임베드한다. */
-    @font-face {
-      font-family: "Intro";
-      font-weight: 200; font-style: normal;
-      src: url(data:font/ttf;base64,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) format("truetype");
-    }
-
+    /* 임베드 폰트 없이 시스템 서체를 쓴다. GitHub README 본문과 같은 스택이라
+       배너와 그 아래 글이 한 서체로 이어진다. 문구를 바꿔도 손볼 게 없다. */
     .name, .role {
-      font-family: "Intro", -apple-system, "SF Pro Display",
-                   "Segoe UI Variable Display", "Segoe UI", Roboto, sans-serif;
-      font-weight: 200;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+                   Helvetica, Arial, sans-serif;
     }
-    .name { font-size: 40px; letter-spacing: -0.2px; fill: #1f2328; }
-    .role { font-size: 15px; letter-spacing: 3.4px; fill: #5b636e; }
+    .name { font-size: 32px; font-weight: 300; letter-spacing: -0.2px; fill: #1f2328; }
+    .role { font-size: 15px; font-weight: 400; letter-spacing: 0.6px; fill: #5b636e; }
 
     .star { fill: #E5A9C3; animation: twinkle 3.6s ease-in-out infinite; }
 
@@ -36,24 +29,25 @@
   </style>
 
   <g>
-    <circle class="star" cx="58" cy="25" r="1.7" style="animation-delay: 0.0s" />
-    <circle class="star" cx="112" cy="49" r="1.2" style="animation-delay: 0.6s" />
-    <circle class="star" cx="46" cy="78" r="1.5" style="animation-delay: 1.3s" />
-    <circle class="star" cx="140" cy="96" r="1.0" style="animation-delay: 2.1s" />
-    <circle class="star" cx="168" cy="18" r="1.1" style="animation-delay: 2.8s" />
-    <circle class="star" cx="942" cy="27" r="1.7" style="animation-delay: 0.3s" />
-    <circle class="star" cx="888" cy="53" r="1.2" style="animation-delay: 1.0s" />
-    <circle class="star" cx="954" cy="81" r="1.5" style="animation-delay: 1.7s" />
-    <circle class="star" cx="860" cy="97" r="1.0" style="animation-delay: 2.4s" />
-    <circle class="star" cx="832" cy="16" r="1.1" style="animation-delay: 3.0s" />
-    <circle class="star" cx="286" cy="11" r="1.1" style="animation-delay: 1.5s" />
-    <circle class="star" cx="452" cy="8" r="0.9" style="animation-delay: 2.6s" />
-    <circle class="star" cx="648" cy="12" r="1.3" style="animation-delay: 0.8s" />
-    <circle class="star" cx="742" cy="7" r="0.9" style="animation-delay: 2.0s" />
-    <circle class="star" cx="372" cy="103" r="1.0" style="animation-delay: 1.1s" />
-    <circle class="star" cx="612" cy="106" r="1.1" style="animation-delay: 2.3s" />
+    <circle class="star" cx="612" cy="31" r="1.5" style="animation-delay: 0.0s" />
+    <circle class="star" cx="668" cy="60" r="1.1" style="animation-delay: 0.6s" />
+    <circle class="star" cx="720" cy="23" r="1.3" style="animation-delay: 1.3s" />
+    <circle class="star" cx="760" cy="77" r="1.0" style="animation-delay: 2.1s" />
+    <circle class="star" cx="806" cy="42" r="1.4" style="animation-delay: 2.8s" />
+    <circle class="star" cx="852" cy="69" r="1.0" style="animation-delay: 0.3s" />
+    <circle class="star" cx="884" cy="19" r="1.2" style="animation-delay: 1.0s" />
+    <circle class="star" cx="930" cy="54" r="1.6" style="animation-delay: 1.7s" />
+    <circle class="star" cx="958" cy="83" r="1.0" style="animation-delay: 2.4s" />
+    <circle class="star" cx="566" cy="89" r="1.1" style="animation-delay: 3.0s" />
+    <circle class="star" cx="700" cy="94" r="1.0" style="animation-delay: 1.5s" />
+    <circle class="star" cx="820" cy="96" r="1.2" style="animation-delay: 2.6s" />
+    <circle class="star" cx="128" cy="12" r="1.0" style="animation-delay: 0.8s" />
+    <circle class="star" cx="286" cy="9" r="1.1" style="animation-delay: 2.0s" />
+    <circle class="star" cx="420" cy="14" r="0.9" style="animation-delay: 1.1s" />
+    <circle class="star" cx="96" cy="94" r="1.0" style="animation-delay: 2.3s" />
+    <circle class="star" cx="330" cy="97" r="0.9" style="animation-delay: 1.6s" />
   </g>
 
-  <text x="500" y="52" text-anchor="middle" class="name">Chaeyeon Lee</text>
-  <text x="500" y="88" text-anchor="middle" class="role">OCR and document understanding</text>
+  <text x="64" y="50" class="name">Chaeyeon Lee</text>
+  <text x="64" y="79" class="role">Retrieval, OCR, and the evaluation pipelines that check them</text>
 </svg>

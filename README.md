@@ -4,7 +4,7 @@
   <img
     src="./intro.svg"
     width="900"
-    alt="Chaeyeon Lee — OCR and document understanding"
+    alt="Chaeyeon Lee — Retrieval, OCR, and the evaluation pipelines that check them"
   />
 </p>
 
