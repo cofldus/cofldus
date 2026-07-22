@@ -1,10 +1,8 @@
-<div align="center">
-
-<p align="center">
+<p>
   <img
     src="./intro.svg"
     width="900"
-    alt="Chaeyeon Lee — Retrieval, OCR, and the evaluation pipelines that check them"
+    alt="Chaeyeon Lee — Retrieval, vision, and the evaluation pipelines that check them"
   />
 </p>
 
@@ -21,5 +19,3 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cofldus/cofldus/output/github-snake.svg" />
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/cofldus/cofldus/output/github-snake.svg" />
 </picture>
-
-</div>
