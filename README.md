@@ -4,7 +4,7 @@
   <img
     src="./intro.svg"
     width="900"
-    alt="Welcome to my little orbit"
+    alt="Chaeyeon Lee — OCR and document understanding"
   />
 </p>
 
