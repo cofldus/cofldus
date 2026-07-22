@@ -1,7 +1,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="1000" height="190" viewBox="0 0 1000 190" fill="none"
+  width="1000" height="172" viewBox="0 0 1000 172" fill="none"
 >
   <defs>
     <linearGradient id="ruleGrad" x1="0" y1="0" x2="1" y2="0">
@@ -13,7 +13,7 @@
       <stop offset="0" stop-color="#E5A9C3" stop-opacity="0.7" />
       <stop offset="1" stop-color="#E5A9C3" stop-opacity="0" />
     </radialGradient>
-    <path id="moonPath" d="M 395 156 a 105 18 0 1 0 210 0 a 105 18 0 1 0 -210 0" />
+    <path id="moonPath" d="M 405 148 a 95 15 0 1 0 190 0 a 95 15 0 1 0 -190 0" />
   </defs>
 
   <style>
@@ -21,46 +21,34 @@
        img로 불러오는 SVG는 외부 폰트를 못 받으므로 data URI로 임베드한다. */
     @font-face {
       font-family: "IntroDisplay";
-      font-weight: 300;
-      font-style: normal;
+      font-weight: 300; font-style: normal;
       src: url(data:font/ttf;base64,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) format("truetype");
     }
     @font-face {
       font-family: "IntroText";
-      font-weight: 300;
-      font-style: normal;
+      font-weight: 300; font-style: normal;
       src: url(data:font/ttf;base64,AAEAAAAQAQAABAAAR0RFRgAhABEAAAnUAAAAHEdQT1NzJ2LZAAAJ8AAAAdJHU1VCuPq49AAAC8QAAAAqT1MvMnCEc5cAAAGIAAAAYFNUQVRX0z7RAAAL8AAAAFpjbWFwAdgCCQAAAjgAAABsZ2FzcAAAABAAAAnMAAAACGdseWaxa3OeAAAC2AAABiBoZWFkLmPGSQAAAQwAAAA2aGhlYQ4QC80AAAFEAAAAJGhtdHhJPAm5AAAB6AAAAFBsb2NhEdoQOgAAAqwAAAAqbWF4cAAbAEwAAAFoAAAAIG5hbWURECWeAAAI+AAAALRwb3N0/rwAbQAACawAAAAgcHJlcGgGjIUAAAKkAAAABwABAAAABABCNdV+U18PPPUAAwgAAAAAAOJ2h5AAAAAA5oX1RQAO/l4GPwXcAAAAAwACAAAAAAAAAAEAAAfA/hIAAAbcAA7+ywY/CAAAAAAAAAAAAAAAAAAAAAAUAAEAAAAUADoAAgAQAAIAAQAAAAAAAAAAAAAAAAACAAEABATsASwABQAABTMEzQAAAJoFMwTNAAACzQBtApMAAAIABQMAAAACAAQAAAABAAAAAAAAAAAAAAAAUlNNUwDAACAAdwfA/hIAAAjdApQAAAABAAAAAARJBdIAAAAgAAwFQAFIBEkAWgRaAGIEswBiBIAAYgSUAJ0BvwB/Ab8AnQG/AJ0G3ACdBJMAnQSZAGIEswCdArkAnQP/AGgCWQAOBlMAPQISAJ8CJAAAAAAAcwAAAAIAAAADAAAAFAADAAEAAAAUAAQAWAAAABIAEAADAAIAIAAuAGEAZQBpAHAAdAB3//8AAAAgAC4AYQBjAGgAbAByAHf////y/+P/oP+f/53/nP+b/5kAAQAAAAAAAAAAAAAAAAAAAAAAALgB/4WwBI0AAAAAAABSAIsAxgECASgBMwE/AU0BiQGvAeMCHwI/AoECpgLkAvoC+gMQAAAAAgBa/+oDrARZACcAOQAARSImJjU0PgI3PgI1NTQmJiMiBgYHJz4CMzIeAhURIzUjDgInMjY2NTUOAwcOAhUUFhYByWWnYz9znV5fgEI/dlNQe00Ogxt9rWJJjnNEgwgXXIlJZ5VQDz9UWSdchEZCcRZLk2tTb0cpDAwSJykXSGo6M1Y1Hl17PydWi2P9Eq8yWzh4V5RanA0WEA0FCzFUQUFaMAABAGL/6wP+BFoAJQAARSImAjU0EjYzMh4CFwcuAyMiBgYVFBYWMzI+AjcXDgMCTJDdfX3dkFaQcEoPgQoyTGZAb59VVZ5wQWdMMgqCD0twkhWQAQCmqAEBkDNYbz0bJ00/JnbLf37KdSZATygbPXFZNAACAGL/6gQWBdIAFgAmAABFIiYCNTQSNjMyFhYXMxEzESM1Iw4CJzI2NjU0JiYjIgYGFRQWFgIuiNB0dc+IX4lbGAiFgQsZXYhNa5pRUZlsappSU5oWjgEBqqkBAI1CZzgCWvouzjlpQnlyyoWEyHFyyIOEynMAAQBi/+kEIgRaACcAAEUiJgI1NBI2MzIeAhUVITUhBzQmJiMiBgYVFRQWFjMyNjY3Fw4CAlia4Xt7249hrINL/JMDJDxTmmlpnlhapXFPe1MUgRh4sheRAQCmpgEBk0eMzoY1dCp3uWpst3E/gMJrM1g3G1CDTQAAAQCdAAAD9gXSABYAAEERIxEzESM2NjMyFhYVESMRNCYjIgYGASKFhR0uxH9wrmKFmYFYjFECpv1aBdL9do+CXraF/UACt4udSowA//8AfwAAAUEF3AYmAAcAAAAGABMMAAABAJ0AAAEiBEkAAwAAcxEzEZ2FBEn7twABAJ0AAAEiBdIAAwAAQREjEQEihQXS+i4F0gAAAQCdAAAGPwRcACkAAHMRMxcjPgIzMhYXIz4CMzIWFhURIxE0JiMiBgYVESMRNCYjIgYGFRGdggERGWaISXukFhkVZpVYZJ1bhZBpUXpFhYhrS39NBEn0WXQ6lXhSeUJXq379JALah4BEfVP9MwLmdIdGg139RQAAAQCdAAAD9gRZABYAAEERIxEzEyM2NjMyFhYVESMRNCYjIgYGASKFgQEaLsR/cK1jhZmBWIxRAqb9WgRJ/v+Pgl62hf1AAreLnUqMAAIAYv/pBDYEWgAPAB8AAEUiJgI1NBI2MzIWEhUUAgYnMjY2NTQmJiMiBgYVFBYWAkyQ3X193ZCR3Xx83ZFxn1RUoHBvn1VVnheRAQCmqAEBkZH+/6im/wCReXfKfX7Md3fLf33KdwAAAgCd/l4EUQRZABYAJgAAUxEzFTM+AjMyFhIVFAIGIyImJicjEQEyNjY1NCYmIyIGBhUUFhadggoZW4peic90dM6JXolbGggBUmuZUlKZa2uZUlKZ/l4F69E4Z0KN/wCpqv7/jkJpOf2QAgVzyoSDyHJxyISFynIAAQCdAAACjwRYABMAAHMRMxUzNjYzMhYXFSYmIyIGBhURnYEHIp9pESMMBy0bUYJLBEmuVWgCAYUBBkeAVv1GAAEAaP/pA5oEWgArAABFIiYmJzcWFjMyNjU0JicnJiY1NDY2MzIWFhcHJiYjIgYVFBYXFxYWFRQGBgIAb61tD4ETjnR+ll1Zs5CRY69wa51jE30UfHBwjWJirY+MaLkXRoljFGZqcVVEVRUrI5FxXIxPRoFZFVVsa1NGVxcqIo5vYJFRAAIADv/zAjAFWwADABMAAEEVITUTMxEUFjc2NjcXBgYjBiY1AiL97KyFRUoQLBMTFzYZg40ESXR0ARL7pE5HBQEEA3MFBgaGfAAAAQA9AAAGFQRJACMAAGEBMxMWFhcjNjY3EzMTFhYXIzY2NxMzASMDLgInMw4CBwMBiP61jagaNRsXGzYbso+wGzUbGBs2GqmM/raMvhIjIhEhESIjEr8ESf2zW852c85eAk39s1zOdXTNXgJN+7cCbD6Ag0NDg4E9/ZQAAAEAn//zAXIAxgALAABFIiY1NDYzMhYVFAYBCSw+PiwsPT0NPiwsPT0sLD4AAQBzBSABNQXcAAsAAFMiJjU0NjMyFhUUBtQoOTkoKDk5BSA3Jyg2NignNwAAAAcAWgADAAEECQACAA4AAAADAAEECQEBAAwADgADAAEECQExAAoAGgADAAEECQE4ABgAJAADAAEECQE9AAgAPAADAAEECQFAAAwARAADAAEECQFBAAoAUABSAGUAZwB1AGwAYQByAFcAZQBpAGcAaAB0AEwAaQBnAGgAdABPAHAAdABpAGMAYQBsACAAUwBpAHoAZQAyADAAcAB0AEkAdABhAGwAaQBjAFIAbwBtAGEAbgADAAAAAAAA/rkAbQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAwAAAAAAAAAAgACAAEABgABAAgAEAABAAEAAAAKADwAXgAEREZMVAAaY3lybAAmZ3JlawAmbGF0bgAmAAQAAAAA//8AAQABAAQAAAAA//8AAQAAAAJrZXJuAA5rZXJuABYAAAACAAEAAAAAAAQAAQAAAAEAAAACAAYBMgACAAgAAQAIAAIAxAAEAAAA1AD8AAkACgAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAP/bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/7gAA/+wAEv/sAAAALAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAK/+IADgAk//kAAAAJABH/gAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAP/bAAAAAP/+AAAAAAAA/2kAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAQAGAAAACAARAAYAAQABABEAAgABAAAAAQACAAQAAAAAAAIAAgABAAEABQAGAAMABwAIAAEAAQARAAUAAgACAAIAAQAHAAAAAQADAAMAAgADAAMABgAEAAgACQACAAgAAgAKABwAAQAmAAQAAAABAAwAAQASAAAAAgAUAAQAAAAaAB4AAQACAAAAAAABAAEAEQACAAAAAQARAAEAAQAAAAEAAAAKACYAKAACREZMVAAObGF0bgAYAAQAAAAA//8AAAAAAAAAAAAAAAAAAQABAAgAAwAAABQAAwAAACwAAm9wc3oBOAAAd2dodAEBAAFpdGFsAUAAAgAGABIAHgABAAAAAAE9ABQAAAABAAEAAAExASwAAAADAAIAAgFBAAAAAAABAAAAAA==) format("truetype");
     }
 
     .title {
       font-family: "IntroDisplay", -apple-system, "SF Pro Display",
                    "Segoe UI Variable Display", "Segoe UI", Roboto, sans-serif;
-      font-weight: 300;
-      font-size: 42px;
-      letter-spacing: -0.3px;
+      font-weight: 300; font-size: 42px; letter-spacing: -0.3px;
       fill: #1f2328;
     }
     .subtitle {
       font-family: "IntroText", -apple-system, "SF Pro Text",
                    "Segoe UI Variable Text", "Segoe UI", Roboto, sans-serif;
-      font-weight: 300;
-      font-size: 18px;
-      letter-spacing: 0.35px;
+      font-weight: 300; font-size: 18px; letter-spacing: 0.35px;
       fill: #6e7781;
-    }
-    .face {
-      font-family: "Segoe UI", -apple-system, Arial, sans-serif;
-      font-size: 20px;
-      fill: #6e7781;
-    }
-    .halo {
-      stroke: #BFA6E5;
-      stroke-width: 0.9;
-      stroke-dasharray: 1.2 6;
-      stroke-linecap: round;
-      opacity: 0.38;
     }
     .star { fill: #E5A9C3; animation: twinkle 3.6s ease-in-out infinite; }
+    .halo {
+      stroke: #BFA6E5; stroke-width: 0.9;
+      stroke-dasharray: 1.2 6; stroke-linecap: round;
+      opacity: 0.38;
+    }
+    .planet { fill: #6e7781; opacity: 0.55; }
 
     @keyframes twinkle {
       0%, 100% { opacity: 0.16; }
@@ -72,38 +60,40 @@
   </style>
 
   <g>
-    <circle class="star" cx="58"  cy="42"  r="1.9" style="animation-delay: 0s" />
-    <circle class="star" cx="112" cy="78"  r="1.3" style="animation-delay: 0.6s" />
-    <circle class="star" cx="46"  cy="126" r="1.6" style="animation-delay: 1.3s" />
-    <circle class="star" cx="140" cy="152" r="1.1" style="animation-delay: 2.1s" />
-    <circle class="star" cx="168" cy="34"  r="1.2" style="animation-delay: 2.8s" />
-    <circle class="star" cx="942" cy="46"  r="1.9" style="animation-delay: 0.3s" />
-    <circle class="star" cx="888" cy="84"  r="1.3" style="animation-delay: 1.0s" />
-    <circle class="star" cx="954" cy="130" r="1.6" style="animation-delay: 1.7s" />
-    <circle class="star" cx="860" cy="154" r="1.1" style="animation-delay: 2.4s" />
-    <circle class="star" cx="832" cy="30"  r="1.2" style="animation-delay: 3.0s" />
-    <circle class="star" cx="286" cy="20"  r="1.2" style="animation-delay: 1.5s" />
-    <circle class="star" cx="452" cy="14"  r="1.0" style="animation-delay: 2.6s" />
-    <circle class="star" cx="648" cy="22"  r="1.4" style="animation-delay: 0.8s" />
-    <circle class="star" cx="742" cy="12"  r="1.0" style="animation-delay: 2.0s" />
+    <circle class="star" cx="58" cy="41" r="1.9" style="animation-delay: 0.0s" />
+    <circle class="star" cx="112" cy="77" r="1.3" style="animation-delay: 0.6s" />
+    <circle class="star" cx="46" cy="124" r="1.6" style="animation-delay: 1.3s" />
+    <circle class="star" cx="140" cy="150" r="1.1" style="animation-delay: 2.1s" />
+    <circle class="star" cx="168" cy="33" r="1.2" style="animation-delay: 2.8s" />
+    <circle class="star" cx="942" cy="45" r="1.9" style="animation-delay: 0.3s" />
+    <circle class="star" cx="888" cy="83" r="1.3" style="animation-delay: 1.0s" />
+    <circle class="star" cx="954" cy="127" r="1.6" style="animation-delay: 1.7s" />
+    <circle class="star" cx="860" cy="151" r="1.1" style="animation-delay: 2.4s" />
+    <circle class="star" cx="832" cy="29" r="1.2" style="animation-delay: 3.0s" />
+    <circle class="star" cx="286" cy="19" r="1.2" style="animation-delay: 1.5s" />
+    <circle class="star" cx="452" cy="14" r="1.0" style="animation-delay: 2.6s" />
+    <circle class="star" cx="648" cy="21" r="1.4" style="animation-delay: 0.8s" />
+    <circle class="star" cx="742" cy="12" r="1.0" style="animation-delay: 2.0s" />
   </g>
 
-  <text x="500" y="73" text-anchor="middle" class="title">Welcome to my little orbit,</text>
+  <text x="500" y="68" text-anchor="middle" class="title">Welcome to my little orbit,</text>
 
-  <rect x="300" y="90" width="400" height="1" rx="0.5" fill="url(#ruleGrad)" />
+  <rect x="300" y="86" width="400" height="1" rx="0.5" fill="url(#ruleGrad)" />
 
-  <text x="500" y="121" text-anchor="middle" class="subtitle">where ideas compile into constellations. ✦</text>
+  <text x="500" y="117" text-anchor="middle" class="subtitle">where ideas compile into constellations. ✦</text>
 
-  <ellipse class="halo" cx="500" cy="156" rx="105" ry="18" />
-  <text x="500" y="163" text-anchor="middle" class="face">(*˙︶˙*)و</text>
+  <!-- 카피의 'little orbit'. 가운데 행성 하나와 그 둘레를 도는 달 하나 -->
+  <ellipse class="halo" cx="500" cy="148" rx="95" ry="15" />
+  <circle class="planet" cx="500" cy="148" r="3.2" />
 
   <!-- SMIL이 없으면 달이 좌상단(0,0)에 박히므로 opacity 0에서 켠다 -->
   <g opacity="0">
     <set attributeName="opacity" to="1" begin="0s" fill="freeze" />
-    <circle r="9" fill="url(#moonGlow)" />
-    <circle r="2.8" fill="#E5A9C3" />
+    <circle r="8" fill="url(#moonGlow)" />
+    <circle r="2.6" fill="#E5A9C3" />
     <animateMotion dur="12s" repeatCount="indefinite">
       <mpath href="#moonPath" xlink:href="#moonPath" />
     </animateMotion>
   </g>
+
 </svg>
