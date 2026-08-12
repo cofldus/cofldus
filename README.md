@@ -5,7 +5,7 @@
 <p>
   <a href="https://cofldus.github.io/"><img src="https://img.shields.io/badge/Portfolio-E5A9C3?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/chaeyeon-lee-113698274"><img src="https://img.shields.io/badge/LinkedIn-E5A9C3?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:lcyicy3816@naver.com"><img src="https://img.shields.io/badge/Email-E5A9C3?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:lcylcy3816@naver.com"><img src="https://img.shields.io/badge/Email-E5A9C3?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
 
 ### Recent work
